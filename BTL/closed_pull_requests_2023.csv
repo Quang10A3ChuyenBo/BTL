@@ -1,0 +1,827 @@
+number,title,user,created_at,closed_at,merged,merged_at
+24796,Use normal slash in #include,georgthegreat,2023-12-29 08:55:32+00:00,2023-12-29 13:26:44+00:00,True,2023-12-29 13:26:44+00:00
+24793,imgcodecs: suppress warning at test_avif.cpp,Kumataro,2023-12-29 04:02:46+00:00,2023-12-29 13:27:41+00:00,True,2023-12-29 13:27:41+00:00
+24790,Fix avif version detection,FantasqueX,2023-12-28 16:20:26+00:00,2023-12-29 13:27:59+00:00,True,2023-12-29 13:27:59+00:00
+24784,Release 4.9.0.,asmorkalov,2023-12-27 16:48:48+00:00,2023-12-27 18:01:25+00:00,True,2023-12-27 18:01:25+00:00
+24778,Reworked camera stream check to exclude non-video formats,asmorkalov,2023-12-27 11:33:42+00:00,2023-12-27 16:43:17+00:00,True,2023-12-27 16:43:17+00:00
+24776,docs: exclude bindings utils,opencv-alalek,2023-12-26 22:58:52+00:00,2023-12-27 08:25:01+00:00,True,2023-12-27 08:25:01+00:00
+24775,build: disable Python2 detection by default,opencv-alalek,2023-12-26 21:21:11+00:00,2023-12-27 06:36:49+00:00,True,2023-12-27 06:36:49+00:00
+24771,Remove deprecated CMake variable,FantasqueX,2023-12-26 10:29:50+00:00,2023-12-26 13:36:20+00:00,True,2023-12-26 13:36:20+00:00
+24769,Added exception warning to calibrateCamera description.,asmorkalov,2023-12-25 16:00:22+00:00,2023-12-26 10:27:57+00:00,True,2023-12-26 10:27:57+00:00
+24767,ffmpeg/4.x: update FFmpeg wrapper 2023.12,opencv-alalek,2023-12-25 13:57:13+00:00,2023-12-25 17:55:41+00:00,True,2023-12-25 17:55:41+00:00
+24766,pre: OpenCV 4.9.0 (version++),asmorkalov,2023-12-25 10:21:13+00:00,2023-12-25 13:04:54+00:00,True,2023-12-25 13:04:54+00:00
+24764,Document read-only check in Python bindings,asmorkalov,2023-12-25 09:48:44+00:00,2023-12-26 14:37:40+00:00,True,2023-12-26 14:37:40+00:00
+24763,"dnn(test): skip very long debug tests, reduce test time",opencv-alalek,2023-12-25 08:30:32+00:00,2023-12-25 09:31:36+00:00,True,2023-12-25 09:31:36+00:00
+24761,dnn(test): skip tests on 32-bit Windows,opencv-alalek,2023-12-25 03:07:20+00:00,2023-12-25 08:27:34+00:00,True,2023-12-25 08:27:34+00:00
+24759,Replace deprecated symbol with AVVideoCodecTypeH264 deprecated since ios11,jubinchheda,2023-12-24 18:45:01+00:00,2023-12-25 10:31:12+00:00,True,2023-12-25 10:31:12+00:00
+24755,Fix typos in imgproc/src/contours.cpp,MaximSmolskiy,2023-12-22 19:03:55+00:00,2023-12-24 08:40:12+00:00,True,2023-12-24 08:40:12+00:00
+24754,Refine logic of parsing PNG version,FantasqueX,2023-12-22 16:22:31+00:00,2023-12-25 08:59:06+00:00,True,2023-12-25 08:59:06+00:00
+24753,dnn onnx: support constaint inputs in einsum importer,fengyuentau,2023-12-22 15:46:17+00:00,2023-12-25 11:42:05+00:00,True,2023-12-25 11:42:05+00:00
+24752,Enable Android AAR package build with SDK project itself without Python,asmorkalov,2023-12-22 13:25:49+00:00,2023-12-25 17:38:47+00:00,True,2023-12-25 17:38:47+00:00
+24751,[CUDA] Hotfix Scale with 1 parameter,dkurt,2023-12-22 12:45:34+00:00,2023-12-22 13:52:50+00:00,True,2023-12-22 13:52:50+00:00
+24749,Fix OpenJPEG version in cmake scripts,FantasqueX,2023-12-22 12:20:07+00:00,2023-12-22 13:51:45+00:00,True,2023-12-22 13:51:45+00:00
+24747,Increate Vit_b test threshold a bit for CUDA FP16.,asmorkalov,2023-12-22 10:39:14+00:00,2023-12-22 14:04:46+00:00,True,2023-12-22 14:04:46+00:00
+24744,added URL to understand CUDA options,chacha21,2023-12-22 07:12:43+00:00,2023-12-22 11:08:14+00:00,True,2023-12-22 11:08:14+00:00
+24741,Fix zlib version parse,FantasqueX,2023-12-21 17:21:52+00:00,2023-12-22 11:56:43+00:00,True,2023-12-22 11:56:43+00:00
+24740,ocl: fix kernels compilation,opencv-alalek,2023-12-21 14:39:16+00:00,2023-12-22 06:20:47+00:00,True,2023-12-22 06:20:47+00:00
+24738,Build Javadoc and source package together with AAR,asmorkalov,2023-12-21 13:59:43+00:00,2023-12-21 18:12:47+00:00,False,
+24737,dnn(test): tune FP16 test tolerance,opencv-alalek,2023-12-21 13:41:39+00:00,2023-12-21 14:58:33+00:00,True,2023-12-21 14:58:33+00:00
+24736,dnn(ocl): don't try KERNEL_TYPE_GEMM_LIKE with kernel_w > 16,opencv-alalek,2023-12-21 13:32:44+00:00,2023-12-21 17:01:02+00:00,True,2023-12-21 17:01:02+00:00
+24732,Do not install removed toolchain file for Android.,asmorkalov,2023-12-21 07:41:10+00:00,2023-12-21 09:43:43+00:00,True,2023-12-21 09:43:43+00:00
+24730,OCL: fix incompatibility with Mali ruintime,mshabunin,2023-12-20 21:33:09+00:00,2023-12-21 08:17:38+00:00,True,2023-12-21 08:17:38+00:00
+24728,samples: add Python 3.12,opencv-alalek,2023-12-20 19:34:25+00:00,2023-12-21 07:42:15+00:00,True,2023-12-21 07:42:15+00:00
+24723,Drop old Android toolchain file,asmorkalov,2023-12-20 12:21:57+00:00,2023-12-20 13:52:05+00:00,True,2023-12-20 13:52:04+00:00
+24718,Add support for external libspng.,asmorkalov,2023-12-19 09:18:04+00:00,2023-12-20 10:05:10+00:00,True,2023-12-20 10:05:10+00:00
+24717,Update 3rdparty zlib to 1.3,FantasqueX,2023-12-19 06:55:10+00:00,2023-12-19 13:02:38+00:00,True,2023-12-19 13:02:38+00:00
+24716,SPNG integration warning fixes on Windows,asmorkalov,2023-12-19 06:40:19+00:00,2023-12-20 10:35:00+00:00,True,2023-12-20 10:35:00+00:00
+24715,Update android opencl sample,AleksandrPanov,2023-12-18 22:00:11+00:00,2023-12-20 13:23:01+00:00,True,2023-12-20 13:23:00+00:00
+24713,Improve icvSmoothHistogram256,MaximSmolskiy,2023-12-18 14:00:07+00:00,2023-12-19 15:39:34+00:00,True,2023-12-19 15:39:34+00:00
+24709,try to enable Winograd by default in FP32 mode and disable it by default in FP16 mode,vpisarev,2023-12-17 19:25:12+00:00,2023-12-22 06:22:32+00:00,True,2023-12-22 06:22:32+00:00
+24706,3rdparty: update libtiff URLs,Kumataro,2023-12-16 01:25:10+00:00,2023-12-17 17:01:32+00:00,True,2023-12-17 17:01:32+00:00
+24702,Empty vectors before filling them in ChessBoardDetector::processQuads,vrabaud,2023-12-15 13:50:29+00:00,2023-12-18 13:18:43+00:00,True,2023-12-18 13:18:43+00:00
+24701,Fix typo,dodo920306,2023-12-15 01:27:59+00:00,2023-12-15 11:48:52+00:00,True,2023-12-15 11:48:51+00:00
+24700,Android Tutorial for Windows Updated,savuor,2023-12-15 00:54:49+00:00,2023-12-15 15:07:07+00:00,True,2023-12-15 15:07:07+00:00
+24699,Enable Android AAR package build with SDK project itself without Python scripts,asmorkalov,2023-12-14 15:42:36+00:00,2023-12-21 13:58:44+00:00,False,
+24698,build: prepare to build for ARM64 on Windows with Visual Studio,tomoaki0705,2023-12-14 14:03:38+00:00,2023-12-19 10:19:55+00:00,True,2023-12-19 10:19:55+00:00
+24696,doc: use python3-minimal instead of python3-dev,Kumataro,2023-12-13 15:34:42+00:00,2023-12-13 20:56:07+00:00,True,2023-12-13 20:56:07+00:00
+24694,dnn: refactor ONNX MatMul with fastGemm,fengyuentau,2023-12-13 06:00:05+00:00,2023-12-19 16:36:41+00:00,True,2023-12-19 16:36:41+00:00
+24693,Fix homepage of libspng,FantasqueX,2023-12-13 03:54:12+00:00,2023-12-13 12:22:29+00:00,True,2023-12-13 12:22:29+00:00
+24692,Android camera tutorial update,savuor,2023-12-13 00:46:13+00:00,2023-12-13 11:37:23+00:00,True,2023-12-13 11:37:23+00:00
+24689,Update 3rdparty libspng to 0.7.4,FantasqueX,2023-12-12 15:15:35+00:00,2023-12-15 14:53:43+00:00,True,2023-12-15 14:53:43+00:00
+24685,fix build.gradle,AleksandrPanov,2023-12-11 23:59:04+00:00,2023-12-12 06:11:22+00:00,True,2023-12-12 06:11:22+00:00
+24681,Fixed armv8 compilation warnings,WanliZhong,2023-12-11 07:19:51+00:00,2023-12-12 12:38:08+00:00,True,2023-12-12 12:38:08+00:00
+24680,Update Android mobilenet tutorial,AleksandrPanov,2023-12-10 23:48:18+00:00,2023-12-12 13:17:20+00:00,True,2023-12-12 13:17:20+00:00
+24675,Fix for Floating point exception when qrcode.detect,sarthak-prasad,2023-12-09 15:03:53+00:00,2023-12-15 17:02:02+00:00,False,
+24673,build: reenable fp16 compile in old compiler (armv7),tomoaki0705,2023-12-09 01:35:21+00:00,2023-12-09 12:57:42+00:00,True,2023-12-09 12:57:42+00:00
+24672,Replace Slice optional inputs removal to adjustment,dkurt,2023-12-08 20:30:40+00:00,2023-12-10 16:37:55+00:00,True,2023-12-10 16:37:55+00:00
+24668,Get code to compile without DNN,vrabaud,2023-12-08 09:55:40+00:00,2023-12-08 11:38:04+00:00,True,2023-12-08 11:38:04+00:00
+24667,Fix mismatch and simplify code in ChessBoardDetector::findQuadNeighbors,MaximSmolskiy,2023-12-08 09:51:03+00:00,2023-12-24 08:45:20+00:00,True,2023-12-24 08:45:20+00:00
+24666,add support Orbbec Gemini2 and Gemini2 XL camera,zzuliys,2023-12-08 06:30:36+00:00,2023-12-19 15:34:21+00:00,True,2023-12-19 15:34:21+00:00
+24665,cmake: use /INCREMENTAL:NO with MSVS 2015,opencv-alalek,2023-12-08 06:15:08+00:00,2023-12-08 11:39:17+00:00,True,2023-12-08 11:39:17+00:00
+24664,build: fix warning in Clang 10,tomoaki0705,2023-12-07 21:25:53+00:00,2023-12-08 11:39:07+00:00,True,2023-12-08 11:39:07+00:00
+24662,Added experimental NativeCameraView class for Android 24+.,asmorkalov,2023-12-07 09:59:27+00:00,2023-12-11 13:40:58+00:00,True,2023-12-11 13:40:58+00:00
+24659,Fix bug in ChessBoardDetector::cleanFoundConnectedQuads,MaximSmolskiy,2023-12-06 19:49:55+00:00,2023-12-19 13:05:30+00:00,True,2023-12-19 13:05:29+00:00
+24658,G-API: Get input model layout from the IR if possible in OV 2.0 backend,smirnov-alexey,2023-12-06 14:53:10+00:00,2023-12-13 15:40:08+00:00,True,2023-12-13 15:40:08+00:00
+24657,"Added warning, if FFmpeg pipeline was interrupted by timeout",asmorkalov,2023-12-06 10:30:37+00:00,2023-12-08 07:30:42+00:00,True,2023-12-08 07:30:42+00:00
+24655,dnn onnx graph simplifier: handle optional inputs of Slice,fengyuentau,2023-12-06 03:12:19+00:00,2023-12-06 10:43:55+00:00,True,2023-12-06 10:43:55+00:00
+24653,Android Studio tutorials rewritten,savuor,2023-12-06 01:45:59+00:00,2023-12-12 14:10:12+00:00,True,2023-12-12 14:10:12+00:00
+24652,OpenCV.AI notification.,asmorkalov,2023-12-05 17:24:03+00:00,2023-12-05 19:25:49+00:00,True,2023-12-05 19:25:49+00:00
+24651,Report resolution together with FPS in JavaCamera2View,asmorkalov,2023-12-05 15:47:13+00:00,2023-12-05 18:45:26+00:00,True,2023-12-05 18:45:26+00:00
+24649,Refactor JavaCamera2View to add option to override Camera2 session request options,asmorkalov,2023-12-05 13:14:13+00:00,2023-12-06 14:33:32+00:00,True,2023-12-06 14:33:32+00:00
+24648,Fix stereoRectify image boundaries again.,vrabaud,2023-12-05 12:37:11+00:00,2023-12-06 08:52:07+00:00,True,2023-12-06 08:52:07+00:00
+24647,dnn cuda: support Sub,fengyuentau,2023-12-05 03:13:42+00:00,2023-12-06 10:46:25+00:00,True,2023-12-06 10:46:25+00:00
+24642,build: merge multiple features specified at once,tomoaki0705,2023-12-04 13:37:37+00:00,2023-12-18 16:57:19+00:00,True,2023-12-18 16:57:19+00:00
+24641,Drop Adnroid.mk and Application.mk in samples as they are not used with Gradle,asmorkalov,2023-12-04 13:07:57+00:00,2023-12-05 11:13:29+00:00,True,2023-12-05 11:13:29+00:00
+24640,Removed info lib handling in OpenCV initialization on Android,asmorkalov,2023-12-04 12:03:12+00:00,2023-12-08 05:57:39+00:00,True,2023-12-08 05:57:39+00:00
+24639,Refreshed OpenCL sample for Android,asmorkalov,2023-12-04 08:44:19+00:00,2023-12-05 15:51:34+00:00,True,2023-12-05 15:51:34+00:00
+24634,The AVVideoCodecJPEG symbol was deprecated in iOS 11.0. We may want to use AVVideoCodecTypeJPEG instead,jubinchheda,2023-12-03 11:55:23+00:00,2023-12-10 18:01:34+00:00,True,2023-12-10 18:01:34+00:00
+24630,doc: typo fix,tomoaki0705,2023-12-02 04:34:33+00:00,2023-12-04 09:38:06+00:00,True,2023-12-04 09:38:05+00:00
+24629,doc: add crosscompile_with_multiarch,Kumataro,2023-12-01 10:46:30+00:00,2023-12-11 18:29:44+00:00,True,2023-12-11 18:29:44+00:00
+24625,Report correct open status from Bitstream,asmorkalov,2023-11-30 12:17:44+00:00,2023-11-30 13:42:02+00:00,True,2023-11-30 13:42:02+00:00
+24623,CV_Assert that function exists in arithm_op,tozanski,2023-11-30 09:58:17+00:00,2023-12-15 15:04:13+00:00,False,
+24622,Fixed problem with saving images in Android sample,alexlyulkov,2023-11-30 09:39:55+00:00,2023-12-04 07:00:40+00:00,True,2023-12-04 07:00:40+00:00
+24619,Update README.md - Add campaign and additional resources,philnelson,2023-11-30 02:30:59+00:00,2023-11-30 07:32:54+00:00,True,2023-11-30 07:32:54+00:00
+24618,Fix compilation on some 32-bit windows,vrabaud,2023-11-29 15:29:28+00:00,2023-12-01 06:10:30+00:00,True,2023-12-01 06:10:30+00:00
+24616,Fix Android sample mobilenet-ssd detector,asmorkalov,2023-11-29 12:44:19+00:00,2023-11-30 12:18:26+00:00,True,2023-11-30 12:18:26+00:00
+24615,G-API: Soften the argument check in infer2,smirnov-alexey,2023-11-29 12:04:46+00:00,2023-11-29 14:45:03+00:00,True,2023-11-29 14:45:03+00:00
+24613,"Make default axis of softmax in onnx ""-1"" without opset option",WanliZhong,2023-11-29 06:20:54+00:00,2023-12-15 07:41:42+00:00,True,2023-12-15 07:41:42+00:00
+24611,Add test for YoloX Yolo v6 and Yolo v8,Abdurrahheem,2023-11-28 17:02:15+00:00,2023-12-11 13:42:52+00:00,True,2023-12-11 13:42:52+00:00
+24608,Fix comment typo in matx.hpp,spacegaier,2023-11-28 07:27:10+00:00,2023-11-28 10:41:54+00:00,True,2023-11-28 10:41:53+00:00
+24607,Serialize Android samples build in SDK script to prevent raise between gradle instances,asmorkalov,2023-11-28 06:44:56+00:00,2023-11-29 07:04:26+00:00,True,2023-11-29 07:04:26+00:00
+24605,Speed up ChessBoardDetector::findQuadNeighbors,MaximSmolskiy,2023-11-28 01:17:51+00:00,2023-12-11 16:11:58+00:00,True,2023-12-11 16:11:58+00:00
+24604,Fix time measurement in test Calib3d_ChessboardDetector.timing,MaximSmolskiy,2023-11-27 20:45:20+00:00,2023-11-28 11:45:51+00:00,True,2023-11-28 11:45:51+00:00
+24601,Fix path to ONNX Runtime include folder,TolyaTalamanov,2023-11-27 15:41:00+00:00,2023-12-15 13:21:02+00:00,True,2023-12-15 13:21:01+00:00
+24600,Fixed regression in Android Tutorial2 initialization.,asmorkalov,2023-11-27 13:14:07+00:00,2023-11-28 12:50:40+00:00,True,2023-11-28 12:50:40+00:00
+24599,Migrate Android Face Detection sample to DNN.,asmorkalov,2023-11-27 12:41:45+00:00,2023-11-30 14:43:26+00:00,True,2023-11-30 14:43:26+00:00
+24598,Add android QR detection sample,AleksandrPanov,2023-11-26 15:32:20+00:00,2023-11-29 09:51:59+00:00,True,2023-11-29 09:51:59+00:00
+24597,Fix bug in ChessBoardDetector::findQuadNeighbors,MaximSmolskiy,2023-11-26 11:15:28+00:00,2023-11-30 07:59:06+00:00,True,2023-11-30 07:59:06+00:00
+24596,Add test for YOLOv8 ,Abdurrahheem,2023-11-26 08:26:43+00:00,2023-12-04 07:22:34+00:00,False,
+24595,Fix typo in ChessBoardDetector::generateQuads,MaximSmolskiy,2023-11-26 07:14:32+00:00,2023-11-29 09:28:57+00:00,True,2023-11-29 09:28:57+00:00
+24593,Add test for YOLOX ,Abdurrahheem,2023-11-24 16:36:49+00:00,2023-12-04 07:22:49+00:00,False,
+24592,Android sample for VideoWriter,savuor,2023-11-24 16:14:19+00:00,2023-12-13 12:54:32+00:00,True,2023-12-13 12:54:32+00:00
+24591,Test for YOLOX,Abdurrahheem,2023-11-24 14:30:11+00:00,2023-11-24 16:32:23+00:00,False,
+24587,"DON'T MERGE, DNN: disable winograd as default",zihaomu,2023-11-24 00:06:06+00:00,2023-12-19 17:32:12+00:00,False,
+24586,dnn: improve fp16 code style,zihaomu,2023-11-23 23:37:44+00:00,2023-11-23 23:57:02+00:00,False,
+24584,G-API: Implement inference only mode for OV backend,TolyaTalamanov,2023-11-23 14:44:27+00:00,2023-11-29 14:40:46+00:00,True,2023-11-29 14:40:46+00:00
+24582,Optimize the v_lut* functions for RISC-V Vector(RVV).,hanliutong,2023-11-23 12:16:17+00:00,2023-11-30 07:59:52+00:00,True,2023-11-30 07:59:52+00:00
+24581,Fix race condition in color_lab.cpp initLabTabs().,vrabaud,2023-11-23 09:01:20+00:00,2023-11-28 12:01:41+00:00,True,2023-11-28 12:01:41+00:00
+24578,Fix verify unsupported new mat depth for nonzero/minmax/lut,Kumataro,2023-11-23 02:33:13+00:00,2023-11-23 09:15:59+00:00,True,2023-11-23 09:15:59+00:00
+24577,Fix graph fusion with commutative ops,dkurt,2023-11-22 17:07:52+00:00,2023-11-24 07:40:33+00:00,True,2023-11-24 07:40:33+00:00
+24576,Enable GAPI VASOT in Python,AsyaPronina,2023-11-22 14:58:37+00:00,2023-12-20 12:26:02+00:00,True,2023-12-20 12:26:02+00:00
+24575,Drop OpenCV Manager from samples initialization,asmorkalov,2023-11-22 10:53:33+00:00,2023-11-24 11:16:44+00:00,True,2023-11-24 11:16:44+00:00
+24574,cudaMemset2D fix: Correct buffer height parameter,ajithvcoder,2023-11-22 10:36:59+00:00,2023-11-23 12:53:11+00:00,True,2023-11-23 12:53:11+00:00
+24569,Add support for custom padding in DNN preprocessing,Abdurrahheem,2023-11-21 12:38:42+00:00,2023-11-28 08:54:10+00:00,True,2023-11-28 08:54:10+00:00
+24566,Fix typos in calibinit.cpp,MaximSmolskiy,2023-11-21 06:36:06+00:00,2023-11-21 08:37:43+00:00,True,2023-11-21 08:37:42+00:00
+24565,Change the lsx to baseline features.,CNClareChen,2023-11-21 03:57:18+00:00,2023-11-30 12:27:50+00:00,True,2023-11-30 12:27:50+00:00
+24561,Port of Replace double atomic in USAC,asmorkalov,2023-11-20 12:40:11+00:00,2023-11-20 18:26:45+00:00,True,2023-11-20 18:26:45+00:00
+24560,"Print warning, but not throw exceptions in cv::VideoCapture for OpenNI2",asmorkalov,2023-11-20 10:57:23+00:00,2023-11-21 12:24:27+00:00,True,2023-11-21 12:24:27+00:00
+24557,fix Issue 23558,thewoz,2023-11-19 14:11:04+00:00,2023-11-19 14:12:20+00:00,False,
+24554,Android AAR package build and test with CI,asmorkalov,2023-11-17 14:30:01+00:00,2023-11-28 12:17:06+00:00,True,2023-11-28 12:17:06+00:00
+24553,Add yolov5n to tests,skycat8,2023-11-16 09:52:57+00:00,2023-11-24 07:36:07+00:00,True,2023-11-24 07:36:07+00:00
+24552,"dnn: add openvino, opencl and cuda backends for layer normalization layer",fengyuentau,2023-11-16 09:23:32+00:00,2023-11-21 12:33:01+00:00,True,2023-11-21 12:33:01+00:00
+24549,Correction on OpenNI Property Handling to make KinectV2 compatible,mathbarc,2023-11-15 23:40:10+00:00,2023-11-20 11:16:14+00:00,False,
+24547,Classify and extend convolution and depthwise performance tests,WanliZhong,2023-11-15 16:49:12+00:00,2023-12-11 18:35:34+00:00,True,2023-12-11 18:35:34+00:00
+24546,Check Checkerboard Corners,thewoz,2023-11-15 12:46:13+00:00,2023-12-20 15:01:40+00:00,True,2023-12-20 15:01:40+00:00
+24544,dnn test: move layer norm tests into conformance tests,fengyuentau,2023-11-15 09:09:53+00:00,2023-11-20 08:19:25+00:00,True,2023-11-20 08:19:25+00:00
+24539,Add blobrecttoimage,LaurentBerger,2023-11-14 08:44:13+00:00,2023-12-19 17:00:04+00:00,True,2023-12-19 17:00:04+00:00
+24536,Change the lsx to baseline features.,CNClareChen,2023-11-13 09:00:07+00:00,2023-11-21 03:40:45+00:00,False,
+24535,Handle huge images in IPP distanceTransform,dkurt,2023-11-13 08:49:43+00:00,2023-11-14 08:44:17+00:00,True,2023-11-14 08:44:17+00:00
+24533,remove filter fix in aruco qr code detector,AleksandrPanov,2023-11-13 08:00:53+00:00,2023-11-13 11:58:11+00:00,True,2023-11-13 11:58:11+00:00
+24531,dnn onnx test: remove cuda backend filter for instance norm test,fengyuentau,2023-11-13 06:50:36+00:00,2023-11-13 11:54:24+00:00,True,2023-11-13 11:54:24+00:00
+24529,cuda: fix for compatibility with CUDA Toolkit >= 12.2.0,333fps,2023-11-12 14:01:34+00:00,2023-11-12 19:09:31+00:00,False,
+24528,Compile bug fixes,ro-nan,2023-11-11 19:00:04+00:00,2023-11-12 07:17:39+00:00,False,
+24527,Fix out of image corners in cv::cornerSubPix,MaximSmolskiy,2023-11-11 14:17:34+00:00,2023-11-21 12:36:44+00:00,True,2023-11-21 12:36:44+00:00
+24526,fix tab arrow issue,thewoz,2023-11-11 13:16:40+00:00,2023-11-13 11:55:48+00:00,True,2023-11-13 11:55:48+00:00
+24521,Fix some of the broken urls in docs,dkurt,2023-11-10 11:49:15+00:00,2023-11-11 06:06:11+00:00,True,2023-11-11 06:06:11+00:00
+24519,updated additional resources links,shubh1176,2023-11-10 09:04:41+00:00,2023-11-12 10:33:41+00:00,True,2023-11-12 10:33:41+00:00
+24517,3d: fix static init in test,mshabunin,2023-11-09 19:14:43+00:00,2023-11-09 20:07:42+00:00,True,2023-11-09 20:07:42+00:00
+24513,fix for Eigen 3.4.1 unsupported Tensor/TensorMeta.h header issue,jeanchristopheruel,2023-11-08 20:47:21+00:00,2023-11-09 14:51:12+00:00,False,
+24512,Fixed build warning introduced in #24243,asmorkalov,2023-11-08 11:47:52+00:00,2023-11-08 12:42:50+00:00,True,2023-11-08 12:42:50+00:00
+24511,Exclude RVV UI internals from Doxygen documentation.,asmorkalov,2023-11-08 11:24:27+00:00,2023-11-08 14:00:45+00:00,True,2023-11-08 14:00:45+00:00
+24510,Enable softmax layer vectorization on RISC-V RVV,asmorkalov,2023-11-08 10:37:43+00:00,2023-11-11 06:09:15+00:00,True,2023-11-11 06:09:14+00:00
+24509,Fast gemm for einsum,Abdurrahheem,2023-11-07 17:34:49+00:00,2023-11-16 13:20:18+00:00,True,2023-11-16 13:20:18+00:00
+24501,opem,hybristan,2023-11-06 11:19:59+00:00,2023-11-07 16:23:12+00:00,False,
+24500,dnn (onnx): add subgraph fusion tests,fengyuentau,2023-11-06 07:12:41+00:00,2023-11-07 14:40:32+00:00,True,2023-11-07 14:40:32+00:00
+24499,Replace double atomic in USAC,ivashmak,2023-11-05 21:42:36+00:00,2023-11-20 12:47:35+00:00,True,2023-11-20 12:47:35+00:00
+24496,ADD weights yolov3 in models.yml,cabelo,2023-11-04 03:37:58+00:00,2023-11-14 06:06:37+00:00,True,2023-11-14 06:06:37+00:00
+24495,Get the SSE2 condition match the emmintrin.h inclusion condition.,vrabaud,2023-11-03 23:52:08+00:00,2023-11-07 06:06:28+00:00,True,2023-11-07 06:06:28+00:00
+24492,Use video stream fps first in FFmpeg backend for VideoCapture,asmorkalov,2023-11-03 11:02:21+00:00,2023-11-11 05:53:41+00:00,True,2023-11-11 05:53:41+00:00
+24490,Changed Gradle and AGP versions to 8.3,alexlyulkov,2023-11-03 10:08:21+00:00,2023-11-14 14:58:04+00:00,False,
+24488,Link lib_acl_op_compiler when compile with CANN,hipudding,2023-11-03 08:42:46+00:00,2023-11-09 06:26:19+00:00,True,2023-11-09 06:26:19+00:00
+24486,(5.x) Merge 4.x,asmorkalov,2023-11-03 05:11:24+00:00,2023-11-08 19:16:40+00:00,True,2023-11-08 19:16:40+00:00
+24485,Optimize the Implementation of RVV Universal Intrinsic.,hanliutong,2023-11-03 02:47:57+00:00,2023-11-03 09:31:11+00:00,True,2023-11-03 09:31:11+00:00
+24483,Commutative rules for DNN subgraphs fusion,dkurt,2023-11-02 12:49:16+00:00,2023-11-08 13:26:33+00:00,True,2023-11-08 13:26:33+00:00
+24480,Backport to 4.x: patchNaNs() SIMD acceleration,savuor,2023-11-02 01:33:38+00:00,2023-11-03 05:58:08+00:00,True,2023-11-03 05:58:08+00:00
+24479,Fix contour filtering in ArUco,AleksandrPanov,2023-11-01 21:44:16+00:00,2023-11-09 11:57:38+00:00,True,2023-11-09 11:57:38+00:00
+24478,Fix MinGW build issue due to obsensor,CCInc,2023-11-01 18:21:26+00:00,2023-11-02 12:26:43+00:00,True,2023-11-02 12:26:43+00:00
+24477,Add JavaScript bindings for SimpleBlobDetector,asmorkalov,2023-11-01 14:47:58+00:00,2023-11-08 05:37:12+00:00,True,2023-11-08 05:37:12+00:00
+24476,dnn: add attention layer,fengyuentau,2023-11-01 08:56:09+00:00,2023-12-20 16:35:07+00:00,True,2023-12-20 16:35:07+00:00
+24475,(4.x) Merge 3.4,opencv-alalek,2023-10-31 15:01:43+00:00,2023-10-31 19:21:01+00:00,True,2023-10-31 19:21:01+00:00
+24474,Added Java bindings for BOWImgDescriptorExtractor constructor,asmorkalov,2023-10-31 08:25:03+00:00,2023-11-07 19:00:32+00:00,True,2023-11-07 19:00:32+00:00
+24473,Updated Android samples for modern Android studio. Added OpenCV from Maven support.,alexlyulkov,2023-10-31 07:17:39+00:00,2023-11-17 11:17:17+00:00,True,2023-11-17 11:17:17+00:00
+24468,Fixed Python signatures in Doxygen documentation.,asmorkalov,2023-10-30 14:29:12+00:00,2023-11-02 05:53:20+00:00,True,2023-11-02 05:53:20+00:00
+24466,Improve and refactor softmax layer,WanliZhong,2023-10-28 17:16:43+00:00,2023-11-06 01:48:33+00:00,True,2023-11-06 01:48:33+00:00
+24465,Reformat USAC tutorial,ivashmak,2023-10-28 15:54:22+00:00,2023-11-08 11:01:36+00:00,True,2023-11-08 11:01:36+00:00
+24463,DNN graph fusion with shared nodes,dkurt,2023-10-27 12:46:44+00:00,2023-11-03 09:34:10+00:00,True,2023-11-03 09:34:10+00:00
+24462,"dnn cann backend: add hardswish, layernorm and instasnce norm for cann and bug fix",fengyuentau,2023-10-27 09:41:31+00:00,2023-11-15 14:57:52+00:00,True,2023-11-15 14:57:52+00:00
+24461,video tracking (dnn): set backend and target for TrackerVit,fengyuentau,2023-10-27 08:12:29+00:00,2023-10-27 11:12:45+00:00,True,2023-10-27 11:12:45+00:00
+24458,Dnn_ Net_ A bug occurred when compiling getUnconnectedOutLayersNames into JavaScript,laolaolulu,2023-10-26 13:35:01+00:00,2023-11-13 11:51:20+00:00,True,2023-11-13 11:51:20+00:00
+24456,Added scripts for creating an AAR package and a local Maven repository with OpenCV library,alexlyulkov,2023-10-26 08:09:00+00:00,2023-11-07 11:23:33+00:00,True,2023-11-07 11:23:33+00:00
+24454,Refactor ObjectiveC Range class,komakai,2023-10-26 07:53:50+00:00,2023-10-27 11:31:41+00:00,True,2023-10-27 11:31:41+00:00
+24453,Enable RISC-V CI configuration for 5.x,asmorkalov,2023-10-26 05:27:13+00:00,2023-10-26 10:28:04+00:00,True,2023-10-26 10:28:04+00:00
+24451,Update of IPP integration,eplankin,2023-10-25 17:11:39+00:00,2023-10-27 10:57:12+00:00,True,2023-10-27 10:57:12+00:00
+24446,Update optical_flow.py,officialhemant511,2023-10-24 20:10:20+00:00,2023-10-25 20:55:13+00:00,False,
+24445,Einsum Layer Performance Test,Abdurrahheem,2023-10-24 18:32:09+00:00,2023-11-08 08:56:21+00:00,True,2023-11-08 08:56:21+00:00
+24441,Make sure AVIF decoder is destroyed in case of failure,vrabaud,2023-10-24 08:08:02+00:00,2023-10-24 10:18:03+00:00,True,2023-10-24 10:18:03+00:00
+24440,tutorial_py_fourier_transform wrong division operator fix,COOLIRON2311,2023-10-23 16:49:03+00:00,2023-10-24 06:05:05+00:00,True,2023-10-24 06:05:05+00:00
+24438,Check the return value of avifDecoderSetIOMemory.,vrabaud,2023-10-23 12:57:12+00:00,2023-10-24 05:56:55+00:00,True,2023-10-24 05:56:55+00:00
+24434,fix: supress GCC13 warnings,Kumataro,2023-10-21 10:27:22+00:00,2023-10-26 06:00:58+00:00,True,2023-10-26 06:00:58+00:00
+24429,Unconditionally create SuperScale in BarcodeDetector to avoid null deref,vrabaud,2023-10-19 20:43:16+00:00,2023-10-20 08:47:03+00:00,True,2023-10-20 08:47:03+00:00
+24427,dnn: fp16 support for gather elements,fengyuentau,2023-10-19 06:46:04+00:00,2023-10-19 11:05:17+00:00,True,2023-10-19 11:05:17+00:00
+24425,dnn: fix HAVE_TIMVX macro definition in dnn test,fengyuentau,2023-10-18 08:14:29+00:00,2023-10-20 11:16:52+00:00,True,2023-10-20 11:16:52+00:00
+24422,Updated libade to 0.1.2d,mshabunin,2023-10-18 06:42:00+00:00,2023-10-18 10:01:04+00:00,True,2023-10-18 10:01:04+00:00
+24420,"added detection & dispatching of some modern NEON instructions (NEON_FP16, NEON_BF16)",vpisarev,2023-10-17 23:11:12+00:00,2023-10-18 19:06:20+00:00,True,2023-10-18 19:06:20+00:00
+24417,Ensure interarea algorithm usage in resize perfomance test,asmorkalov,2023-10-17 06:48:10+00:00,2023-10-17 08:27:22+00:00,True,2023-10-17 08:27:22+00:00
+24416,(5.x) Merge 4.x,asmorkalov,2023-10-16 18:26:35+00:00,2023-10-24 09:01:11+00:00,True,2023-10-24 09:01:11+00:00
+24412,Speed up line merging in INTER_AREA,vrabaud,2023-10-16 13:17:45+00:00,2023-10-19 11:06:50+00:00,True,2023-10-19 11:06:50+00:00
+24409,"dnn: add shared fastNorm kernel for mvn, instance norm and layer norm",fengyuentau,2023-10-16 11:37:15+00:00,2023-11-01 11:33:57+00:00,True,2023-11-01 11:33:57+00:00
+24405,Extend the signature of imdecodemulti(),kochanczyk,2023-10-14 12:48:04+00:00,2023-10-30 08:58:08+00:00,True,2023-10-30 08:58:08+00:00
+24404,Fixes: Code snippet alignment #24391,Dhanwanth1803,2023-10-14 08:42:25+00:00,2023-10-14 09:43:00+00:00,False,
+24403,Fix : Code snippet alignment #24391,Dhanwanth1803,2023-10-14 07:33:50+00:00,2023-10-14 07:42:39+00:00,False,
+24401,CI: enable RISC-V for 4.x branch,mshabunin,2023-10-13 19:48:18+00:00,2023-10-16 07:16:12+00:00,True,2023-10-16 07:16:12+00:00
+24398,Jason lin1110 patch 1,JasonLin1110,2023-10-13 11:53:26+00:00,2023-10-13 11:57:37+00:00,False,
+24397,Added PyTorch fcnresnet101 segmentation conversion cases ,richard28039,2023-10-13 08:54:28+00:00,2023-11-03 12:42:43+00:00,True,2023-11-03 12:42:43+00:00
+24396,using cv2 dnn interface to run yolov8 model,Tsai-chia-hsiang,2023-10-13 08:33:15+00:00,2023-11-16 10:40:00+00:00,True,2023-11-16 10:40:00+00:00
+24395,Multi-channel Mat initialization support for cv::Mat::ones and cv::Mat::eye,MengqingCao,2023-10-13 03:12:06+00:00,2023-10-20 07:08:20+00:00,False,
+24386,dnn: fix inconsistent input dtype for nary eltwise layers,fengyuentau,2023-10-11 03:49:58+00:00,2023-10-13 08:56:18+00:00,True,2023-10-13 08:56:18+00:00
+24384,Fixes #22747. Support [crop] configuration for DarkNet,Dhanwanth1803,2023-10-10 18:57:09+00:00,2023-12-22 11:55:02+00:00,True,2023-12-22 11:55:02+00:00
+24382,Enable multicore CUDA compilation,sisakat,2023-10-10 12:10:13+00:00,2023-10-19 10:13:21+00:00,True,2023-10-19 10:13:21+00:00
+24381,Enable multicore CUDA compilation,sisakat,2023-10-10 12:04:09+00:00,2023-10-10 12:08:35+00:00,False,
+24378,dnn onnx: add instance norm layer,fengyuentau,2023-10-09 12:12:55+00:00,2023-11-07 09:59:11+00:00,True,2023-11-07 09:59:11+00:00
+24374,OpenCV2: Update type enum TemplateMatchModes,YKJumper,2023-10-08 18:56:30+00:00,2023-10-20 08:56:31+00:00,False,
+24372,supporting protobuf v22 and later(with abseil-cpp/C++17),Kumataro,2023-10-08 00:52:02+00:00,2023-10-19 05:45:09+00:00,True,2023-10-19 05:45:09+00:00
+24371,Clean up the obsolete API of Universal Intrinsic,hanliutong,2023-10-07 08:43:18+00:00,2023-10-20 09:50:27+00:00,True,2023-10-20 09:50:27+00:00
+24370,Fix imshow icons missing when linking the static opencv library,LiuPeiqiCN,2023-10-07 03:24:43+00:00,2023-10-12 18:57:41+00:00,True,2023-10-12 18:57:41+00:00
+24368,RISC-V: added v0.12 intrinsics compatibility header,mshabunin,2023-10-06 17:20:57+00:00,2023-10-12 07:28:54+00:00,True,2023-10-12 07:28:54+00:00
+24367,Fixed CumSum layer inplace flag,alexlyulkov,2023-10-06 06:20:27+00:00,2023-10-18 06:21:40+00:00,True,2023-10-18 06:21:40+00:00
+24364,Bugfix/qrcode version estimator,bagelbytes61,2023-10-05 17:57:27+00:00,2023-11-16 13:28:29+00:00,True,2023-11-16 13:28:29+00:00
+24363,videoio: Add raw encoded video stream encapsulation to `cv::VideoWriter` with `CAP_FFMPEG`,cudawarped,2023-10-05 13:33:39+00:00,2023-10-25 10:21:02+00:00,True,2023-10-25 10:21:01+00:00
+24362,Skip less tests with OpenVINO 2023.0,dkurt,2023-10-05 09:53:16+00:00,2023-10-05 12:51:54+00:00,True,2023-10-05 12:51:54+00:00
+24359,Tuned threshold for FastNeuralStyle_eccv16 test,asmorkalov,2023-10-04 13:19:55+00:00,2023-10-13 07:29:41+00:00,True,2023-10-13 07:29:41+00:00
+24357,imgproc: move stb_truetype functions into cv namespace,Kumataro,2023-10-03 20:58:06+00:00,2023-10-05 06:37:08+00:00,True,2023-10-05 06:37:08+00:00
+24356,feat: re-export cv2.typing module as typing,VadimLevin,2023-10-03 11:22:11+00:00,2023-10-04 06:14:52+00:00,True,2023-10-04 06:14:52+00:00
+24355,add dynamic window in aruco cornerRefinement,AleksandrPanov,2023-10-03 07:57:33+00:00,2023-10-12 07:52:56+00:00,True,2023-10-12 07:52:56+00:00
+24354,Removed invalid reference usage in charuco detector,asmorkalov,2023-10-03 06:40:41+00:00,2023-10-03 14:45:43+00:00,True,2023-10-03 14:45:43+00:00
+24353,Fixed CumSum dnn layer,alexlyulkov,2023-10-03 03:46:03+00:00,2023-10-03 10:58:25+00:00,True,2023-10-03 10:58:25+00:00
+24351,`numpy.distutils` is removed in numpy 1.26 on Python 3.12.,sergiomb2,2023-10-02 14:06:56+00:00,2023-10-03 14:44:42+00:00,True,2023-10-03 14:44:42+00:00
+24350,Encode QR code data to UTF-8,dkurt,2023-10-02 12:41:01+00:00,2023-10-12 14:39:58+00:00,True,2023-10-12 14:39:58+00:00
+24349,add aruco board separation check,AleksandrPanov,2023-10-02 07:57:30+00:00,2023-10-03 07:00:04+00:00,True,2023-10-03 07:00:04+00:00
+24344,Fixed OpenCL FP16 fallback in Einsum layer,asmorkalov,2023-09-29 12:54:33+00:00,2023-09-29 16:48:51+00:00,True,2023-09-29 16:48:51+00:00
+24343,Fix tests writing to current work dir,mshabunin,2023-09-29 12:24:15+00:00,2023-10-03 13:34:25+00:00,True,2023-10-03 13:34:25+00:00
+24342,"Fail Java test suite, execution, if one of test failed.",asmorkalov,2023-09-29 10:53:29+00:00,2023-10-02 06:17:11+00:00,True,2023-10-02 06:17:11+00:00
+24341,fix: update location to `samples/dnn/download_models.py`,emmanuel-ferdman,2023-09-29 09:32:51+00:00,2023-09-29 11:35:19+00:00,True,2023-09-29 11:35:19+00:00
+24339,Einsum OpenCL fix,Abdurrahheem,2023-09-28 17:40:43+00:00,2023-09-29 12:54:25+00:00,False,
+24338,(5.x) Merge 4.x,asmorkalov,2023-09-28 13:46:40+00:00,2023-10-05 06:34:43+00:00,True,2023-10-05 06:34:43+00:00
+24337,3rdparty: update ade version,mshabunin,2023-09-28 09:46:11+00:00,2023-10-04 11:59:17+00:00,True,2023-10-04 11:59:17+00:00
+24335,dummy commit to test ci,fengyuentau,2023-09-28 06:46:23+00:00,2023-09-28 11:15:25+00:00,False,
+24334,dnn onnx: fix for multiple Gather operators with shared constants.,fengyuentau,2023-09-28 04:05:27+00:00,2023-09-28 10:08:27+00:00,True,2023-09-28 10:08:27+00:00
+24333,Implement color conversion from RGB to YUV422 family,definitelyuncertain,2023-09-27 23:07:01+00:00,2023-10-12 07:18:24+00:00,True,2023-10-12 07:18:24+00:00
+24329,Added CI with OpenVINO for DNN and G-API.,asmorkalov,2023-09-27 10:49:57+00:00,2023-09-27 13:16:19+00:00,True,2023-09-27 13:16:19+00:00
+24328,Version update to 4.8.1.,asmorkalov,2023-09-27 09:15:00+00:00,2023-09-27 12:16:20+00:00,True,2023-09-27 12:16:20+00:00
+24327,Version update to 4.8.1.,asmorkalov,2023-09-27 07:55:50+00:00,2023-09-27 09:13:36+00:00,False,
+24325,Rewrite Universal Intrinsic code: float related part,hanliutong,2023-09-27 06:51:31+00:00,2023-10-05 14:57:25+00:00,True,2023-10-05 14:57:25+00:00
+24324,Rewrite Universal Intrinsic code: gapi module (fluid part).,hanliutong,2023-09-27 05:53:20+00:00,2023-10-13 07:25:07+00:00,True,2023-10-13 07:25:07+00:00
+24323,Allow limiting the number of keypoints in AKAZE keypoint detector,georgthegreat,2023-09-26 20:04:48+00:00,2023-10-03 13:16:42+00:00,True,2023-10-03 13:16:42+00:00
+24322,Ellipses supported added for Einsum Layer,Abdurrahheem,2023-09-26 06:56:49+00:00,2023-10-24 13:47:01+00:00,True,2023-10-24 13:47:01+00:00
+24316,Fixed segfault when reading Caffe model,alexlyulkov,2023-09-25 06:03:21+00:00,2023-09-25 14:53:54+00:00,True,2023-09-25 14:53:54+00:00
+24315,dnn: hotfixes for fast gemm,fengyuentau,2023-09-25 03:18:12+00:00,2023-10-07 18:48:45+00:00,True,2023-10-07 18:48:45+00:00
+24309,Update OpenVINO init of new GEMM layer,dkurt,2023-09-21 12:59:38+00:00,2023-09-27 07:25:45+00:00,True,2023-09-27 07:25:45+00:00
+24305,cmake: Fix riscv-gnu toolchain file.,hanliutong,2023-09-21 03:02:35+00:00,2023-09-25 10:06:23+00:00,True,2023-09-25 10:06:23+00:00
+24303,Warnings fix on Windows.,asmorkalov,2023-09-20 10:56:06+00:00,2023-09-20 19:08:03+00:00,True,2023-09-20 19:08:03+00:00
+24302,Skip test cases in case of SkipTestException in SetUp,dkurt,2023-09-20 10:28:47+00:00,2023-09-21 09:41:08+00:00,True,2023-09-21 09:41:08+00:00
+24301,Rewrite Universal Intrinsic code: features2d and calib3d module.,hanliutong,2023-09-20 08:40:19+00:00,2023-09-25 10:03:26+00:00,True,2023-09-25 10:03:26+00:00
+24299,In-house QR codes decoding,dkurt,2023-09-20 03:57:13+00:00,2023-11-24 08:35:37+00:00,True,2023-11-24 08:35:36+00:00
+24298,Extend performance test models,WanliZhong,2023-09-19 17:09:25+00:00,2023-10-04 10:05:33+00:00,True,2023-10-04 10:05:33+00:00
+24295,dnn: expand refactor with cv::broadcast for onnx models,fengyuentau,2023-09-19 11:19:40+00:00,2023-09-27 06:28:52+00:00,True,2023-09-27 06:28:52+00:00
+24294,Removed torch (old torch7) from dnn in 5.x,alexlyulkov,2023-09-19 08:07:35+00:00,2023-10-26 08:27:56+00:00,True,2023-10-26 08:27:56+00:00
+24292,New visual header,iggypcnfsky,2023-09-19 00:06:12+00:00,2023-09-19 05:55:45+00:00,False,
+24291,Fix memory leak and handle realloc failure,visitorckw,2023-09-18 14:48:37+00:00,2023-09-20 05:49:57+00:00,True,2023-09-20 05:49:57+00:00
+24288,build fixes for emscripten 3.1.45,tailsu,2023-09-18 13:44:06+00:00,2023-09-19 05:09:18+00:00,True,2023-09-19 05:09:18+00:00
+24286,add Intel® oneAPI DPC++/C++ Compiler (icx),ashadrina,2023-09-18 13:04:25+00:00,2023-09-22 14:09:58+00:00,True,2023-09-22 14:09:58+00:00
+24283,dnn: merge tests from test_halide_layers to test_backends,fengyuentau,2023-09-18 08:33:01+00:00,2023-09-27 11:09:47+00:00,True,2023-09-27 11:09:47+00:00
+24280,optimization for parallelization when large core number,casualwind,2023-09-17 13:35:23+00:00,2023-09-27 13:21:21+00:00,True,2023-09-27 13:21:21+00:00
+24279,Commented out the DLT algorithm needs at least 6 points for pose esti…,athnzc,2023-09-17 12:25:50+00:00,2023-09-17 12:26:07+00:00,False,
+24278,More fixes for iterators-are-pointers case,georgthegreat,2023-09-15 09:38:17+00:00,2023-09-18 07:47:53+00:00,True,2023-09-18 07:47:53+00:00
+24277,Suport Ascend NPU,hipudding,2023-09-15 08:59:54+00:00,2023-11-03 08:33:43+00:00,False,
+24275,Fixed removePhaseSwitches in tf_graph_simplifier,alexlyulkov,2023-09-15 07:36:01+00:00,2023-09-18 08:02:45+00:00,True,2023-09-18 08:02:45+00:00
+24274,Bump libwebp to 1.3.2,vrabaud,2023-09-15 07:21:18+00:00,2023-09-15 11:25:49+00:00,True,2023-09-15 11:25:49+00:00
+24271,fix to convert float32 to int32/uint32 with rounding to nearest (ties to even).,Kumataro,2023-09-14 11:47:47+00:00,2023-12-25 09:17:17+00:00,True,2023-12-25 09:17:17+00:00
+24270,Higher threshold for FasterRCNN_vgg16,dkurt,2023-09-14 10:12:41+00:00,2023-09-14 12:58:24+00:00,True,2023-09-14 12:58:23+00:00
+24269,Update OpenCVFindOpenBLAS.cmake to accomodate alternative lib name,FlyinTeller,2023-09-14 07:04:51+00:00,2023-09-14 11:17:22+00:00,True,2023-09-14 11:17:22+00:00
+24267,yolox detector,LaurentBerger,2023-09-13 20:19:53+00:00,2023-12-13 07:44:08+00:00,False,
+24266,Added default dimension value to tensorflow ArgMax and ArgMin layers,alexlyulkov,2023-09-13 17:02:45+00:00,2023-09-14 07:25:24+00:00,True,2023-09-14 07:25:24+00:00
+24263,Add missing sanitizer interface include,georgthegreat,2023-09-13 09:15:47+00:00,2023-09-13 11:50:59+00:00,True,2023-09-13 11:50:59+00:00
+24262,RISC-V: fix compilation in RVV scalable mode,mshabunin,2023-09-12 21:00:42+00:00,2023-09-22 21:12:10+00:00,True,2023-09-22 21:12:10+00:00
+24261,Add python binding for LineIterator,LaurentBerger,2023-09-12 14:44:03+00:00,2023-10-12 12:29:24+00:00,False,
+24260,Fix undefined behavior arithmetic in copyMakeBorder and adjustROI.,vrabaud,2023-09-12 13:06:49+00:00,2023-09-14 12:16:28+00:00,True,2023-09-14 12:16:28+00:00
+24259,[DOC] Complete documentation for calcOpticalFlowFarneback,qbarthelemy,2023-09-12 12:30:34+00:00,2023-09-18 11:24:01+00:00,False,
+24254,(5.x) Merge 4.x,asmorkalov,2023-09-11 10:38:10+00:00,2023-09-14 17:35:56+00:00,True,2023-09-14 17:35:56+00:00
+24252,cmake: revise OPENCV_DNN_BACKEND_DEFAULT integration,opencv-alalek,2023-09-10 13:13:45+00:00,2023-09-11 05:55:19+00:00,True,2023-09-11 05:55:19+00:00
+24251,Build with OpenVINO in Debug,dkurt,2023-09-09 17:40:50+00:00,2023-09-10 12:59:53+00:00,True,2023-09-10 12:59:53+00:00
+24250,Skip test on SkipTestException at fixture's constructor (version 2),dkurt,2023-09-09 14:53:39+00:00,2023-09-18 07:23:24+00:00,True,2023-09-18 07:23:24+00:00
+24248,JavaScript: include LUT support,opencv-alalek,2023-09-09 03:35:34+00:00,2023-09-11 05:59:02+00:00,True,2023-09-11 05:59:02+00:00
+24247,"fix type cast in drawDetectedMarkers, drawDetectedCornersCharuco, drawDetectedDiamonds",AleksandrPanov,2023-09-08 11:06:37+00:00,2023-09-12 14:38:45+00:00,True,2023-09-12 14:38:45+00:00
+24246,Check that cv::merge input matrices are not empty,asmorkalov,2023-09-08 09:37:51+00:00,2023-09-08 10:41:43+00:00,True,2023-09-08 10:41:43+00:00
+24245,Replaced torch7 model by ONNX model in fast-neural-style dnn sample,alexlyulkov,2023-09-08 05:49:05+00:00,2023-09-08 13:33:18+00:00,True,2023-09-08 13:33:18+00:00
+24244,Replaced torch7 by onnx model in js_face_recognition dnn sample,alexlyulkov,2023-09-08 04:36:54+00:00,2023-09-08 12:36:02+00:00,True,2023-09-08 12:36:02+00:00
+24243,Fix gstreamer backend with manual pipelines,kecsap,2023-09-07 18:35:52+00:00,2023-11-08 10:41:50+00:00,True,2023-11-08 10:41:50+00:00
+24240,Added test with V4L CAP_PROP_CONVERT_RGB=false.,asmorkalov,2023-09-07 12:03:18+00:00,2023-10-16 13:39:35+00:00,True,2023-10-16 13:39:35+00:00
+24239,More strict test for MSMF FOURCC (camera),asmorkalov,2023-09-07 10:20:11+00:00,2023-09-11 08:00:54+00:00,True,2023-09-11 08:00:54+00:00
+24236,Add missing crtdbg.h include,georgthegreat,2023-09-06 15:26:06+00:00,2023-09-07 16:16:27+00:00,False,
+24234,Change max distance at distanceTransform,dkurt,2023-09-06 14:12:18+00:00,2023-10-03 14:23:32+00:00,True,2023-10-03 14:23:32+00:00
+24233,Add HAL implementation hooks to cv::flip() and cv::rotate() functions from core module ,jvuillaumier,2023-09-06 12:59:44+00:00,2023-10-06 09:31:54+00:00,True,2023-10-06 09:31:54+00:00
+24232,Add missing std namespace qualifiers,georgthegreat,2023-09-06 10:46:02+00:00,2023-09-06 14:50:51+00:00,True,2023-09-06 14:50:51+00:00
+24231,dnn: cleanup of halide backend for 5.x,fengyuentau,2023-09-06 09:06:46+00:00,2023-10-13 13:53:19+00:00,True,2023-10-13 13:53:19+00:00
+24228,fix extendDictionary,AleksandrPanov,2023-09-05 22:17:59+00:00,2023-09-08 08:01:44+00:00,True,2023-09-08 08:01:44+00:00
+24227,Add missing <sstream> includes,georgthegreat,2023-09-05 14:33:52+00:00,2023-09-06 06:16:58+00:00,True,2023-09-06 06:16:58+00:00
+24224,Ported VAS OT into OpenCV G-API,AsyaPronina,2023-09-05 11:57:18+00:00,2023-12-08 11:41:29+00:00,True,2023-12-08 11:41:29+00:00
+24223,Revert PR 24186 as it forces skipping tests,asmorkalov,2023-09-05 11:38:50+00:00,2023-09-05 13:35:47+00:00,True,2023-09-05 13:35:47+00:00
+24221,Increase the test threshold of FastRCNN_vgg166 and FastRCNN_zf when FAST_MATH enable,WanliZhong,2023-09-05 05:59:39+00:00,2023-09-05 07:20:44+00:00,True,2023-09-05 07:20:44+00:00
+24218,Added CMake configuration OPENCV_DNN_BACKEND_DEFAULT,CSBVision,2023-09-04 09:50:09+00:00,2023-09-08 11:21:39+00:00,True,2023-09-08 11:21:39+00:00
+24216,Minor optimization of two lines intersection,dkurt,2023-09-02 18:01:07+00:00,2023-09-05 07:44:57+00:00,True,2023-09-05 07:44:57+00:00
+24215,"core: arm64: v_round() works with round to nearest, ties to even.",Kumataro,2023-09-02 10:05:50+00:00,2023-09-04 09:51:02+00:00,True,2023-09-04 09:51:02+00:00
+24214,distanceTransform for inputs with large step and height,dkurt,2023-09-01 12:46:25+00:00,2023-09-05 12:21:11+00:00,True,2023-09-05 12:21:11+00:00
+24211,"Fix ""use after free"" issue in `essential_solver.cpp`",philsc,2023-08-31 19:00:06+00:00,2023-09-05 15:42:58+00:00,True,2023-09-05 15:42:58+00:00
+24210,[DO NOT MERGE] Empty PR to test opencv_extra modifications,mshabunin,2023-08-31 17:47:42+00:00,2023-10-03 14:36:15+00:00,False,
+24209,Fixed bug with the last 4 bytes in MJPEG encoder,alexlyulkov,2023-08-31 15:45:41+00:00,2023-09-05 10:45:27+00:00,True,2023-09-05 10:45:27+00:00
+24205,ht_dec.c: Improve MSVC arm64 popcount performance,PeterJohnson,2023-08-29 22:17:58+00:00,2023-12-10 16:59:20+00:00,True,2023-12-10 16:59:20+00:00
+24204,Properly preserve chi_table license as mandated by BSD-3-Clause,georgthegreat,2023-08-28 15:13:46+00:00,2023-09-05 14:05:47+00:00,True,2023-09-05 14:05:47+00:00
+24203,Fix compilation on arm64 with FP16 when disabled,thesamesam,2023-08-28 03:22:52+00:00,2023-09-04 06:32:46+00:00,True,2023-09-04 06:32:46+00:00
+24201,vittrack(gsoc realtime object tracking model),lpylpy0514,2023-08-27 12:02:50+00:00,2023-09-19 12:36:39+00:00,True,2023-09-19 12:36:39+00:00
+24199,imgcodecs: fix libtiff URL in opencv source code,Kumataro,2023-08-27 11:21:12+00:00,2023-09-04 07:54:44+00:00,True,2023-09-04 07:54:43+00:00
+24196,Use ngraph::Output in OpenVINO backend wrapper,dkurt,2023-08-25 18:17:55+00:00,2023-09-05 15:08:28+00:00,True,2023-09-05 15:08:28+00:00
+24194,Fix compilation when forcing later C++.,vrabaud,2023-08-24 13:54:05+00:00,2023-08-27 17:46:25+00:00,True,2023-08-27 17:46:25+00:00
+24189,Enable OpenVINO max pooling with indices since 2022.1,dkurt,2023-08-23 07:33:59+00:00,2023-08-23 12:00:54+00:00,True,2023-08-23 12:00:54+00:00
+24188,Moved cmake compile definitions to cvconfig.h,alexlyulkov,2023-08-23 06:54:11+00:00,2023-09-08 13:32:21+00:00,False,
+24186,Skip test on SkipTestException at fixture's constructor,dkurt,2023-08-22 12:38:33+00:00,2023-08-25 11:53:35+00:00,True,2023-08-25 11:53:35+00:00
+24180,Fixed the channels when capturing yuv422 with v4l2 backend,MambaWong,2023-08-19 11:12:13+00:00,2023-09-07 12:47:00+00:00,True,2023-09-07 12:47:00+00:00
+24179,core:add OPENCV_IPP_MEAN/MINMAX/SUM option to enable IPP optimizations,Kumataro,2023-08-19 00:15:18+00:00,2023-08-23 19:53:11+00:00,True,2023-08-23 19:53:11+00:00
+24178,G-API: Introduce a Queue Source,dmatveev,2023-08-18 22:36:30+00:00,2023-09-04 09:48:53+00:00,True,2023-09-04 09:48:53+00:00
+24176,Remove explitit transB attribute from MatMul perf test,dkurt,2023-08-18 12:11:04+00:00,2023-08-18 15:50:31+00:00,True,2023-08-18 15:50:31+00:00
+24174,"PR: Fix incorrect detection of Python on Windows because relevant ""cmake"" variables are prematurely cleared.",KelSolaar,2023-08-18 01:52:17+00:00,2023-12-20 14:14:32+00:00,False,
+24173,Add getMatInblob function,LaurentBerger,2023-08-17 13:34:48+00:00,2023-09-08 11:24:00+00:00,False,
+24172,Use STRING instead of PATH to fix #24141,CSBVision,2023-08-17 10:06:16+00:00,2023-08-18 06:18:11+00:00,True,2023-08-18 06:18:11+00:00
+24168,add missing include,autoantwort,2023-08-16 19:50:56+00:00,2023-08-17 09:34:50+00:00,True,2023-08-17 09:34:50+00:00
+24167,add missing include,autoantwort,2023-08-16 19:48:37+00:00,2023-08-17 09:34:19+00:00,True,2023-08-17 09:34:19+00:00
+24166,Rewrite Universal Intrinsic code: ImgProc (CV_SIMD_WIDTH related Part),hanliutong,2023-08-16 14:55:08+00:00,2023-09-19 12:12:52+00:00,True,2023-09-19 12:12:52+00:00
+24160,gapi: update ADE library to 0.1.2b,mshabunin,2023-08-15 17:53:37+00:00,2023-08-18 08:02:53+00:00,True,2023-08-18 08:02:53+00:00
+24157,Mark OpenVINO models for G-API tests optional,dkurt,2023-08-15 08:33:43+00:00,2023-08-18 08:02:34+00:00,True,2023-08-18 08:02:34+00:00
+24156,DNN: fix the issue in layer_fuse,zihaomu,2023-08-15 06:14:56+00:00,2023-08-16 12:39:24+00:00,True,2023-08-16 12:39:24+00:00
+24153,fix the return-type error in `ipp_warpAffine`,Ginkgo-Biloba,2023-08-14 13:05:13+00:00,2023-08-15 11:35:01+00:00,True,2023-08-15 11:35:01+00:00
+24150,Adding support for Streamlabs Desktop Virtual Webcam,DeePingXian,2023-08-13 08:48:59+00:00,2023-08-16 22:25:22+00:00,True,2023-08-16 22:25:22+00:00
+24143,Fixed buffer overrun; removed the last two uses of sprintf,seanm,2023-08-11 14:02:38+00:00,2023-08-18 15:50:31+00:00,True,2023-08-18 15:50:31+00:00
+24142,Modify the outputVideoFormat after changing the output format in MSMF backend,beanjoy,2023-08-11 08:41:59+00:00,2023-09-07 10:06:39+00:00,True,2023-09-07 10:06:39+00:00
+24140,Fix GNU/Hurd build,sthibaul,2023-08-10 21:33:12+00:00,2023-08-11 09:32:23+00:00,True,2023-08-11 09:32:23+00:00
+24139,fix refineDetectedMarkers,AleksandrPanov,2023-08-10 15:21:58+00:00,2023-09-05 12:24:57+00:00,True,2023-09-05 12:24:57+00:00
+24138,videoio: fix camera opening with GStreamer plugin,mshabunin,2023-08-10 08:44:03+00:00,2023-08-13 19:49:11+00:00,True,2023-08-13 19:49:11+00:00
+24136,Add experimental support for Apple VisionOS platform,komakai,2023-08-09 23:46:15+00:00,2023-12-20 12:35:10+00:00,True,2023-12-20 12:35:10+00:00
+24133,Fixed bug when MSMF webcamera doesn't start when build with VIDEOIO_PLUGIN_ALL,alexlyulkov,2023-08-09 10:48:52+00:00,2023-08-10 08:48:39+00:00,True,2023-08-10 08:48:39+00:00
+24132,Rewrite Universal Intrinsic code by using new API: ImgProc module Part 2,hanliutong,2023-08-09 09:58:39+00:00,2023-09-19 05:52:43+00:00,True,2023-09-19 05:52:43+00:00
+24131,`cuda`: update default PTX behaviour when `CUDA_ARCH_BIN` is unset,cudawarped,2023-08-09 06:28:29+00:00,2023-09-14 12:00:35+00:00,True,2023-09-14 12:00:35+00:00
+24128,Fix bug at blobFromImagesWithParams,CSBVision,2023-08-08 12:18:35+00:00,2023-09-06 13:20:37+00:00,True,2023-09-06 13:20:37+00:00
+24126,fix charuco checkBoard,AleksandrPanov,2023-08-08 11:20:13+00:00,2023-09-20 11:38:15+00:00,True,2023-09-20 11:38:14+00:00
+24125,Fix v_pack_store alignment issue on Windows 32-bit.,asmorkalov,2023-08-08 11:11:41+00:00,2023-08-08 14:21:44+00:00,True,2023-08-08 14:21:44+00:00
+24123,dnn: cleanup of Halide backend,fengyuentau,2023-08-08 03:58:32+00:00,2023-09-06 09:07:12+00:00,False,
+24122,dnn: cleanup of tengine backend,fengyuentau,2023-08-08 03:02:21+00:00,2023-08-09 06:26:03+00:00,True,2023-08-09 06:26:03+00:00
+24120,OCL_FP16 MatMul with large batch,dkurt,2023-08-07 20:09:16+00:00,2023-08-16 12:46:12+00:00,True,2023-08-16 12:46:12+00:00
+24119,(5.x) Merge 4.x,asmorkalov,2023-08-07 14:52:57+00:00,2023-08-09 06:13:53+00:00,True,2023-08-09 06:13:53+00:00
+24118,Removed merge previous 4.x->5.x merge artifact,asmorkalov,2023-08-07 14:47:31+00:00,2023-08-08 06:01:42+00:00,True,2023-08-08 06:01:42+00:00
+24116,fix python sample code (tst_scene_render) ,chaebkimm,2023-08-07 12:52:40+00:00,2023-08-09 10:46:26+00:00,True,2023-08-09 10:46:26+00:00
+24108,Solved bug in Reduce layer #24044,LaurentBerger,2023-08-04 19:58:46+00:00,2023-08-07 09:39:05+00:00,True,2023-08-07 09:39:05+00:00
+24105,Merge MVN and LayerNorm in one layer,dkurt,2023-08-04 09:32:50+00:00,2023-10-13 09:39:48+00:00,False,
+24104,`cuda`: fix for compatibility with CUDA Toolkit >= 12.2.0,cudawarped,2023-08-04 07:36:10+00:00,2023-08-04 09:11:15+00:00,True,2023-08-04 09:11:15+00:00
+24101,Invalid memory access fix for ONNX split layer parser #24076,LaurentBerger,2023-08-03 10:13:10+00:00,2023-08-04 09:18:49+00:00,True,2023-08-04 09:18:49+00:00
+24099,fix WarpPerspectiveLine_ProcessNN_CV_SIMD for AArch64,v-bulle,2023-08-02 18:34:25+00:00,2023-08-28 20:24:17+00:00,False,
+24098,Fix fullscreen behavior for macOS,0xMihir,2023-08-02 15:54:24+00:00,2023-09-04 13:48:04+00:00,True,2023-09-04 13:48:04+00:00
+24096,Port stereoRectify grid fix #24035,asmorkalov,2023-08-02 13:00:10+00:00,2023-08-04 07:40:38+00:00,True,2023-08-04 07:40:38+00:00
+24095,Add CI configuration with Ubuntu 22.04 for 5.x branch.,asmorkalov,2023-08-02 12:32:28+00:00,2023-08-02 17:37:28+00:00,True,2023-08-02 17:37:28+00:00
+24092,GSoC Add ONNX Support for GatherElements,Aser-Abdelfatah,2023-08-02 00:12:38+00:00,2023-10-18 07:41:48+00:00,True,2023-10-18 07:41:48+00:00
+24089,`cuda`: Fix `GpuMat::copyTo` and `GpuMat::converTo` python bindings,cudawarped,2023-08-01 12:13:47+00:00,2023-08-09 10:25:40+00:00,True,2023-08-09 10:25:40+00:00
+24087,Fixed warnings in videoio module,mshabunin,2023-08-01 11:14:40+00:00,2023-08-01 13:22:51+00:00,True,2023-08-01 13:22:50+00:00
+24086,videoio: doc: add odd width or height limitation for FFMPEG,Kumataro,2023-08-01 09:59:06+00:00,2023-08-09 06:31:47+00:00,True,2023-08-09 06:31:47+00:00
+24084,Finalize calib3d module split for fisheye part,asmorkalov,2023-08-01 07:46:21+00:00,2023-08-03 08:00:00+00:00,True,2023-08-03 08:00:00+00:00
+24083,`cuda`: suppress CMP0146 warning,cudawarped,2023-08-01 06:19:45+00:00,2023-08-01 07:37:35+00:00,True,2023-08-01 07:37:35+00:00
+24080,Resolve uncovered CUDA dnn layer,dkurt,2023-07-31 14:33:56+00:00,2023-08-03 06:13:42+00:00,True,2023-08-03 06:13:42+00:00
+24074,python: support tuple src for cv::add()/subtract()/...,Kumataro,2023-07-29 05:11:25+00:00,2023-09-19 07:32:48+00:00,True,2023-09-19 07:32:48+00:00
+24072,Remove legacy nGraph logic,dkurt,2023-07-28 12:47:15+00:00,2023-08-02 11:39:11+00:00,True,2023-08-02 11:39:11+00:00
+24070,(5.x) Merge 4.x,asmorkalov,2023-07-27 16:31:54+00:00,2023-08-01 07:49:09+00:00,True,2023-08-01 07:49:09+00:00
+24069,DetectionOutput layer on OpenVINO without limitations,dkurt,2023-07-27 15:05:28+00:00,2023-08-02 11:28:47+00:00,True,2023-08-02 11:28:47+00:00
+24068,G-API: Support CoreML Execution Providers for ONNXRT Backend,TolyaTalamanov,2023-07-27 10:10:54+00:00,2023-12-13 18:22:16+00:00,True,2023-12-13 18:22:16+00:00
+24066,Python typing refinement for dnn_registerLayer/dnn_unregisterLayer functions,VadimLevin,2023-07-26 22:41:07+00:00,2023-07-27 08:28:01+00:00,True,2023-07-27 08:28:01+00:00
+24065,OpenCV 3D module rendering function PR,nickyu-zhu,2023-07-26 18:02:01+00:00,2023-10-27 00:42:02+00:00,False,
+24062,feat: add typing stub for redirectError,VadimLevin,2023-07-26 13:52:03+00:00,2023-07-27 06:26:42+00:00,True,2023-07-27 06:26:42+00:00
+24061,feat: add highgui functions to typing stubs,VadimLevin,2023-07-26 13:39:31+00:00,2023-07-26 17:01:45+00:00,True,2023-07-26 17:01:45+00:00
+24060,G-API: Advanced device selection for ONNX DirectML Execution Provider,TolyaTalamanov,2023-07-26 13:33:40+00:00,2023-11-16 05:49:53+00:00,True,2023-11-16 05:49:53+00:00
+24059,G-API: Support CUDA & TensoRT Execution Providers for ONNXRT Backend,TolyaTalamanov,2023-07-26 11:52:21+00:00,2023-08-02 11:13:07+00:00,True,2023-08-02 11:13:07+00:00
+24058,Rewrite Universal Intrinsic code by using new API: ImgProc module.,hanliutong,2023-07-26 08:22:44+00:00,2023-09-14 17:37:46+00:00,True,2023-09-14 17:37:46+00:00
+24056,PReLU with element-wise scales,dkurt,2023-07-25 17:28:05+00:00,2023-07-27 13:36:41+00:00,True,2023-07-27 13:36:41+00:00
+24055,Disable waring C5054 in VS2022 c++20,asmorkalov,2023-07-25 11:52:29+00:00,2023-07-26 08:12:17+00:00,True,2023-07-26 08:12:17+00:00
+24054,[Build] popcnt is not supported on windows ARM,mwangistan,2023-07-25 08:44:21+00:00,2023-07-26 17:53:18+00:00,True,2023-07-26 17:53:18+00:00
+24047,Remove unused features in USAC in 4.x,ivashmak,2023-07-22 09:45:36+00:00,2023-07-23 18:12:28+00:00,True,2023-07-23 18:12:28+00:00
+24046,feat: add cuda_GpuMat to big types,VadimLevin,2023-07-21 14:59:08+00:00,2023-07-26 10:18:32+00:00,True,2023-07-26 10:18:32+00:00
+24045,G-API: Support DirectML Execution Provider for ONNXRT Backend,TolyaTalamanov,2023-07-21 14:06:37+00:00,2023-07-26 13:00:21+00:00,True,2023-07-26 13:00:21+00:00
+24043,"fix compilation error on Windows ARM, use vaddq_f32 instead of +=",zixianweei,2023-07-21 12:31:24+00:00,2023-07-25 08:41:10+00:00,True,2023-07-25 08:41:10+00:00
+24042,Fix harmless ASAN error.,vrabaud,2023-07-21 12:12:07+00:00,2023-07-26 17:00:23+00:00,True,2023-07-26 17:00:22+00:00
+24040,Increase eps for Test_Torch_nets.FastNeuralStyle_accuracy to prevent sporadic test failres with CUDA.,asmorkalov,2023-07-21 10:49:48+00:00,2023-07-21 13:46:35+00:00,True,2023-07-21 13:46:35+00:00
+24039,TFLite models on different backends (tests and improvements),dkurt,2023-07-21 10:44:58+00:00,2023-08-04 08:28:51+00:00,True,2023-08-04 08:28:51+00:00
+24037,Add Support for Einsum Layer,Abdurrahheem,2023-07-21 09:17:28+00:00,2023-09-22 08:25:03+00:00,True,2023-09-22 08:25:03+00:00
+24035,Fix stereoRectify image boundaries.,vrabaud,2023-07-20 21:26:35+00:00,2023-07-27 16:36:33+00:00,True,2023-07-27 16:36:33+00:00
+24032,Fix undefined behavior with wrong function pointers called.,vrabaud,2023-07-20 13:34:30+00:00,2023-07-21 14:16:12+00:00,True,2023-07-21 14:16:12+00:00
+24031,Fix __atomic_load_8 issue on Raspberry Pi 32-bit Debian OS,Qengineering,2023-07-20 11:02:11+00:00,2023-09-17 20:48:11+00:00,False,
+24029,feat: add cuda_Stream and cuda_GpuMat to simple types mapping,VadimLevin,2023-07-19 18:54:27+00:00,2023-07-21 11:57:32+00:00,True,2023-07-21 11:57:32+00:00
+24028,Fix FLANN python bindings,VadimLevin,2023-07-19 16:48:38+00:00,2023-07-21 09:44:56+00:00,True,2023-07-21 09:44:56+00:00
+24026,fix: preserve NumPY writeable flag in output arguments,VadimLevin,2023-07-19 14:24:13+00:00,2023-07-19 16:17:30+00:00,True,2023-07-19 16:17:30+00:00
+24025,Emscripten fix when no aruco - 4.8.0,danoli3,2023-07-19 14:23:55+00:00,2023-07-21 06:21:30+00:00,False,
+24024,G-API: Support OpenVINO Execution Provider for ONNXRT Backend,TolyaTalamanov,2023-07-19 14:22:37+00:00,2023-07-21 09:18:07+00:00,True,2023-07-21 09:18:07+00:00
+24023,Python typing magic constants,VadimLevin,2023-07-19 13:43:39+00:00,2023-07-20 06:18:29+00:00,True,2023-07-20 06:18:29+00:00
+24022,Fix python typing stubs generation for CUDA modules,VadimLevin,2023-07-19 12:09:20+00:00,2023-07-19 13:51:41+00:00,True,2023-07-19 13:51:41+00:00
+24012,`VideoCapture`: remove decoder initialization when demuxing,cudawarped,2023-07-19 05:17:20+00:00,2023-08-11 08:28:57+00:00,True,2023-08-11 08:28:57+00:00
+24008,test_houghlines: Fix C++20 compatibility,iarspider,2023-07-18 07:18:47+00:00,2023-07-18 12:37:44+00:00,True,2023-07-18 12:37:44+00:00
+24005,Merge usac to 5.x,ivashmak,2023-07-17 18:10:14+00:00,2023-07-27 14:51:17+00:00,True,2023-07-27 14:51:17+00:00
+24004,[TFLite] Pack layer and other fixes for SSD from Keras,dkurt,2023-07-17 17:40:51+00:00,2023-07-21 06:13:37+00:00,True,2023-07-21 06:13:37+00:00
+24003,`cuda`: add SkipTestException handling,cudawarped,2023-07-17 15:12:31+00:00,2023-07-18 06:49:21+00:00,True,2023-07-18 06:49:20+00:00
+24001,Use intrinsics for `cvRound` on x86_64 `__GNUC__` (clang/gcc linux) too.,legrosbuffle,2023-07-17 14:36:40+00:00,2023-07-23 06:53:19+00:00,True,2023-07-23 06:53:19+00:00
+23999,Use OpenCV logging instead of std::cerr,asmorkalov,2023-07-17 09:51:02+00:00,2023-07-19 11:46:27+00:00,True,2023-07-19 11:46:27+00:00
+23991,Eliminating compilation warnings when using lto in gcc12 and later versions,buyuer,2023-07-14 09:01:11+00:00,2023-07-18 13:26:09+00:00,True,2023-07-18 13:26:09+00:00
+23990,Unify Pinhole and Fisheye camera models,asmorkalov,2023-07-14 08:34:12+00:00,2023-07-23 06:55:50+00:00,True,2023-07-23 06:55:50+00:00
+23988,Drop Python2 support,asmorkalov,2023-07-13 13:43:09+00:00,2023-07-18 06:59:15+00:00,True,2023-07-18 06:59:15+00:00
+23987,OpenVINO backend for INT8 models,dkurt,2023-07-13 11:05:12+00:00,2023-09-28 13:24:43+00:00,True,2023-09-28 13:24:43+00:00
+23986,Numeric truncation at `tif_dirread.c:4386`,headshog,2023-07-13 10:26:55+00:00,2023-07-27 09:27:47+00:00,True,2023-07-27 09:27:47+00:00
+23980,Rewrite Universal Intrinsic code by using new API: Core module.,hanliutong,2023-07-12 13:18:11+00:00,2023-08-11 05:33:34+00:00,True,2023-08-11 05:33:34+00:00
+23979,(5.x) Merge 4.x,asmorkalov,2023-07-12 11:26:53+00:00,2023-07-13 10:58:23+00:00,True,2023-07-13 10:58:23+00:00
+23975,Google Summer of Code Support ONNX operator gather elements,Aser-Abdelfatah,2023-07-12 05:35:24+00:00,2023-08-03 19:50:15+00:00,False,
+23974,Update mat.inl.hpp to solve the warning C5054,MRNath,2023-07-12 05:10:11+00:00,2023-07-25 11:52:39+00:00,False,
+23973,RISC-V: fix unaligned loads and stores,mshabunin,2023-07-11 19:14:09+00:00,2023-07-12 11:51:57+00:00,True,2023-07-12 11:51:57+00:00
+23972,Prefer using `TYPE_CHECKING` condition in `cv2.typing` module,Avasam,2023-07-11 16:05:42+00:00,2023-07-12 11:51:09+00:00,True,2023-07-12 11:51:09+00:00
+23971,Add Ubuntu 22.04 to CI,asmorkalov,2023-07-11 15:43:21+00:00,2023-07-11 17:51:13+00:00,True,2023-07-11 17:51:13+00:00
+23970,videoio: fix v4l2 test on older platforms (centos),mshabunin,2023-07-11 14:07:28+00:00,2023-07-11 15:16:29+00:00,True,2023-07-11 15:16:28+00:00
+23969,Fixed tests execution with Python 2.7,asmorkalov,2023-07-11 13:50:23+00:00,2023-07-11 17:53:02+00:00,True,2023-07-11 17:53:02+00:00
+23968,doc: added environment vars reference,mshabunin,2023-07-11 11:42:26+00:00,2023-07-12 12:56:27+00:00,True,2023-07-12 12:56:27+00:00
+23967,doxygen: Fix ImwriteFlags documentation misalignment,YusukeKameda,2023-07-11 10:22:08+00:00,2023-07-11 13:40:32+00:00,True,2023-07-11 13:40:32+00:00
+23966,Add missing ”v_popcount“ for RVV and enable tests.,hanliutong,2023-07-11 08:31:53+00:00,2023-07-13 09:22:47+00:00,True,2023-07-13 09:22:47+00:00
+23965,core: add broadcast,fengyuentau,2023-07-11 07:51:43+00:00,2023-08-30 06:53:59+00:00,True,2023-08-30 06:53:59+00:00
+23963,cmake: don't export external target twice,opencv-alalek,2023-07-11 01:14:18+00:00,2023-07-11 12:19:34+00:00,True,2023-07-11 12:19:34+00:00
+23959,[GSoC] Update octree methods and create frame for PCC,starga2er777,2023-07-10 15:25:32+00:00,2023-07-13 08:15:27+00:00,False,
+23958,feat: update NumPy type to Mat type fail message,VadimLevin,2023-07-10 15:08:13+00:00,2023-07-11 07:42:41+00:00,True,2023-07-11 07:42:41+00:00
+23957,add error in the first camera to the cost function,lpanaf,2023-07-10 12:07:38+00:00,2023-08-02 14:45:15+00:00,True,2023-08-02 14:45:15+00:00
+23956,fix: recursively re-export nested submodules in typing stubs,VadimLevin,2023-07-10 11:43:12+00:00,2023-07-11 15:45:27+00:00,True,2023-07-11 15:45:27+00:00
+23955,fix: typing stubs overload presence check,VadimLevin,2023-07-10 11:36:45+00:00,2023-07-10 12:37:59+00:00,True,2023-07-10 12:37:59+00:00
+23954,feat: add matrix type stubs generation,VadimLevin,2023-07-10 11:06:32+00:00,2023-07-10 15:48:01+00:00,True,2023-07-10 15:48:01+00:00
+23952,DNN: optimize the speed of general Depth-wise,zihaomu,2023-07-09 16:21:51+00:00,2023-07-14 14:34:40+00:00,True,2023-07-14 14:34:40+00:00
+23948,Solve error: ambiguous overload for ‘operator!=’ (operand types are ‘__half’ and ‘double’),jiapei100,2023-07-07 18:10:44+00:00,2023-08-04 09:12:20+00:00,False,
+23944,videoio: test for V4L using virtual device,mshabunin,2023-07-07 14:32:09+00:00,2023-07-10 09:54:43+00:00,True,2023-07-10 09:54:43+00:00
+23943,Fix checkSignature not thread safe for AVIF.,vrabaud,2023-07-07 13:44:03+00:00,2023-07-11 07:25:53+00:00,True,2023-07-11 07:25:53+00:00
+23940,videoio: fix CAP_IMAGES with non-numbered file,mshabunin,2023-07-06 18:09:49+00:00,2023-07-07 08:12:39+00:00,True,2023-07-07 08:12:39+00:00
+23939,Fixed a typo in filter.cpp,captainhaddock18,2023-07-06 16:52:53+00:00,2023-07-07 07:21:55+00:00,False,
+23938,Fix compiler warnings for GCC 11-12 and Clang 13,mshabunin,2023-07-06 16:31:59+00:00,2023-07-10 09:41:37+00:00,True,2023-07-10 09:41:37+00:00
+23936,update opencv dnn to support cann version >=6.3,SaltFish-T,2023-07-06 07:11:53+00:00,2023-07-27 11:21:30+00:00,True,2023-07-27 11:21:30+00:00
+23931,Fixed possible out-of-bound access in circles drawing,asmorkalov,2023-07-05 11:10:18+00:00,2023-07-21 09:28:14+00:00,True,2023-07-21 09:28:14+00:00
+23929,Optimize some function with lasx.,CNClareChen,2023-07-05 07:27:25+00:00,2023-10-20 11:20:09+00:00,True,2023-10-20 11:20:09+00:00
+23928,Add missing properties to error class,Avasam,2023-07-04 21:57:49+00:00,2023-07-10 09:40:07+00:00,True,2023-07-10 09:40:07+00:00
+23927,Fix partially unknown Mat,Avasam,2023-07-04 20:48:47+00:00,2023-07-11 07:32:49+00:00,True,2023-07-11 07:32:49+00:00
+23924,removed trailing semicolon after function,ocpalo,2023-07-04 18:19:16+00:00,2023-07-05 06:38:29+00:00,True,2023-07-05 06:38:29+00:00
+23922,Fix imgwarp at borders when transparent.,vrabaud,2023-07-04 14:18:51+00:00,2023-07-12 12:20:02+00:00,True,2023-07-12 12:20:02+00:00
+23920,Fix LoongArch Macro Definition,loongson-zn,2023-07-04 11:36:04+00:00,2023-07-14 12:00:42+00:00,True,2023-07-14 12:00:42+00:00
+23919,Enable Vulkan tests for 5.x branch after 4.x->5.x merge,asmorkalov,2023-07-04 11:05:10+00:00,2023-07-06 09:30:05+00:00,True,2023-07-06 09:30:05+00:00
+23918,use CPACK_PACKAGE_VERSION instead of OPENCV_VCSVERSION for CPACK_PACKAGE_FILE_NAME,kallaballa,2023-07-04 08:01:35+00:00,2023-07-04 11:06:32+00:00,True,2023-07-04 11:06:32+00:00
+23915,imgcodecs: removing unnecessary if statement,kai-waang,2023-07-04 06:02:37+00:00,2023-07-07 07:20:18+00:00,False,
+23914,update ArUco Dictionary documentation,AleksandrPanov,2023-07-03 23:42:02+00:00,2023-07-13 12:48:58+00:00,True,2023-07-13 12:48:58+00:00
+23909,Update PRs & Issue templates to exclude 3.4 from active development,asmorkalov,2023-07-03 08:01:11+00:00,2023-07-03 09:27:12+00:00,True,2023-07-03 09:27:12+00:00
+23908,Optimize some function with lasx.,TiredNotTear,2023-07-03 07:10:32+00:00,2023-07-05 06:35:26+00:00,False,
+23904,removing unreachable codes in `gbackend`,kai-waang,2023-07-02 07:35:26+00:00,2023-09-04 14:06:45+00:00,True,2023-09-04 14:06:45+00:00
+23901,removing duplicated statement,kai-waang,2023-07-01 05:35:58+00:00,2023-07-03 08:26:37+00:00,True,2023-07-03 08:26:37+00:00
+23900,fixing typos in usac,kai-waang,2023-07-01 05:32:18+00:00,2023-07-03 09:08:12+00:00,True,2023-07-03 09:08:12+00:00
+23899,Create oran,am17jx,2023-06-30 12:07:03+00:00,2023-06-30 16:20:02+00:00,False,
+23897,dnn: add gemm_layer in place of fully_connected_layer for onnx models,fengyuentau,2023-06-30 09:46:22+00:00,2023-09-19 21:53:35+00:00,True,2023-09-19 21:53:35+00:00
+23896,videoio: tests for CAP_IMAGES,mshabunin,2023-06-30 07:33:47+00:00,2023-07-04 13:30:53+00:00,True,2023-07-04 13:30:53+00:00
+23894,Use T-API for critical parts of blobFromImagesWithParams,kallaballa,2023-06-29 15:58:02+00:00,2023-10-20 11:27:41+00:00,True,2023-10-20 11:27:40+00:00
+23892,Fix compilation when HAVE_QUIRC is not set.,vrabaud,2023-06-29 14:23:07+00:00,2023-07-03 10:16:50+00:00,True,2023-07-03 10:16:50+00:00
+23890,Fix dupe word typos in comments,SpicyCatGames,2023-06-29 10:41:12+00:00,2023-06-30 09:53:11+00:00,False,
+23887,Switch to version 3.4.20-dev,asmorkalov,2023-06-28 15:42:06+00:00,2023-06-28 16:25:35+00:00,True,2023-06-28 16:25:34+00:00
+23885,Rewrite SIMD code by using new Universal Intrinsic API : an example.,hanliutong,2023-06-28 10:15:41+00:00,2023-07-03 14:58:13+00:00,True,2023-07-03 14:58:13+00:00
+23884,G-API: Fix async inference for OpenVINO backend,TolyaTalamanov,2023-06-28 09:31:58+00:00,2023-06-28 11:52:15+00:00,True,2023-06-28 11:52:15+00:00
+23881,Disable finite-math-only option with ENABLE_FAST_MATH=1 case to handle NaN and Inf checks correctly,asmorkalov,2023-06-27 18:38:45+00:00,2023-07-07 06:04:09+00:00,True,2023-07-07 06:04:09+00:00
+23880,Release OpenCV 4.8.0,asmorkalov,2023-06-27 17:32:44+00:00,2023-06-28 12:27:32+00:00,False,
+23879,Release OpenCV 3.4.20,asmorkalov,2023-06-27 11:28:07+00:00,2023-06-27 12:59:24+00:00,True,2023-06-27 12:59:24+00:00
+23878,Update compareHist_Demo.cpp,JimZhou-001,2023-06-27 08:00:39+00:00,2023-06-27 17:28:33+00:00,False,
+23877,Update compareHist_Demo.cpp,JimZhou-001,2023-06-27 07:38:04+00:00,2023-06-27 07:51:12+00:00,False,
+23876,Correct facedetect.cpp,Petros626,2023-06-27 07:07:24+00:00,2023-06-27 17:24:27+00:00,False,
+23875,Update registry_parallel.impl.hpp,siilats,2023-06-26 17:18:40+00:00,2023-06-27 13:01:35+00:00,False,
+23874,Update videoio_registry.cpp,siilats,2023-06-26 17:17:44+00:00,2023-06-27 13:00:28+00:00,False,
+23871,Create build.yml,TheRedHatter,2023-06-26 07:54:21+00:00,2023-06-26 18:22:29+00:00,False,
+23869,Prioritize V4L backend to use it by index on Linux by default,asmorkalov,2023-06-25 16:45:23+00:00,2023-06-26 13:07:09+00:00,False,
+23868,Test of probably dead code,seanm,2023-06-25 15:54:12+00:00,2023-06-26 16:06:33+00:00,False,
+23865,Added new data types to cv::Mat & UMat,vpisarev,2023-06-24 14:37:55+00:00,2023-08-04 07:50:03+00:00,True,2023-08-04 07:50:03+00:00
+23863,Reworked calibrate.py,asmorkalov,2023-06-23 19:19:35+00:00,2023-06-25 09:10:11+00:00,True,2023-06-25 09:10:11+00:00
+23862,(4.x) Merge 3.4,asmorkalov,2023-06-23 17:42:09+00:00,2023-06-23 18:30:32+00:00,True,2023-06-23 18:30:31+00:00
+23860,dnn: fix overflow in sigmoid layer for 3.4,fengyuentau,2023-06-23 13:24:38+00:00,2023-06-23 16:47:42+00:00,True,2023-06-23 16:47:42+00:00
+23859,G-API: Apply ov::Core lifetime WA for OpenVINO Backend,TolyaTalamanov,2023-06-23 12:33:14+00:00,2023-06-23 16:49:06+00:00,True,2023-06-23 16:49:06+00:00
+23857,dnn: fix overflow in sigmoid layer,fengyuentau,2023-06-23 09:14:09+00:00,2023-06-23 16:50:20+00:00,False,
+23856,Include pthreads for pthreads-base parallel_for,asmorkalov,2023-06-23 09:02:50+00:00,2023-06-23 09:05:24+00:00,False,
+23855,Add `pthread.h` Inclusion if `HAVE_PTHREADS_PF` is defined,thekpaul,2023-06-23 08:56:58+00:00,2023-06-23 10:07:46+00:00,True,2023-06-23 10:07:46+00:00
+23853,dnn: disable warning when loading a fp16 model,fengyuentau,2023-06-23 08:20:28+00:00,2023-06-23 16:52:05+00:00,True,2023-06-23 16:52:05+00:00
+23851,Updated CMakeLists.txt,abhisri15,2023-06-22 22:01:59+00:00,2023-06-23 13:22:38+00:00,False,
+23848,Fix detect diamonds api,AleksandrPanov,2023-06-22 12:17:42+00:00,2023-06-22 14:30:44+00:00,True,2023-06-22 14:30:44+00:00
+23846,FFmpeg/4.x: update FFmpeg wrapper 2023.6,asmorkalov,2023-06-22 10:16:08+00:00,2023-06-22 18:00:07+00:00,True,2023-06-22 18:00:07+00:00
+23843,G-API: Fix incorrect OpaqueKind for Kernel outputs,TolyaTalamanov,2023-06-21 18:24:42+00:00,2023-06-22 09:46:26+00:00,True,2023-06-22 09:46:26+00:00
+23842,G-API: fix static build with OpenVINO,opencv-alalek,2023-06-21 14:20:23+00:00,2023-06-21 19:42:28+00:00,True,2023-06-21 19:42:28+00:00
+23841,FFmpeg/3.4: update FFmpeg wrapper 2023.6,asmorkalov,2023-06-21 06:27:30+00:00,2023-06-21 13:09:54+00:00,True,2023-06-21 13:09:54+00:00
+23840,"default values aligned, formatting fixes",Zhigal,2023-06-21 05:13:56+00:00,2023-06-23 19:20:28+00:00,False,
+23838,fix: conditionally define generic NumPy NDArray alias,VadimLevin,2023-06-20 17:11:38+00:00,2023-06-20 18:16:51+00:00,True,2023-06-20 18:16:51+00:00
+23835,fix: AST nodes required usage imports,VadimLevin,2023-06-20 13:34:43+00:00,2023-06-20 15:34:08+00:00,True,2023-06-20 15:34:08+00:00
+23834,4.7.0 track160,rotem-track160,2023-06-20 13:02:15+00:00,2023-06-20 13:03:46+00:00,False,
+23833,pre: OpenCV 4.8.0 (version++),asmorkalov,2023-06-20 12:53:44+00:00,2023-06-20 14:23:01+00:00,True,2023-06-20 14:23:01+00:00
+23832,Document parameters of multi-dimentional reshape,asmorkalov,2023-06-20 12:17:00+00:00,2023-06-21 06:04:17+00:00,True,2023-06-21 06:04:17+00:00
+23831,pre: OpenCV 3.4.20 (version++),asmorkalov,2023-06-20 11:08:42+00:00,2023-06-20 13:25:56+00:00,True,2023-06-20 13:25:55+00:00
+23829,fix broken links and outdated information for documentation of Orbbec camera,fengyuentau,2023-06-20 09:10:28+00:00,2023-06-21 10:11:40+00:00,True,2023-06-21 10:11:40+00:00
+23827,(4.x) Merge 3.4,asmorkalov,2023-06-19 16:03:01+00:00,2023-06-20 08:48:08+00:00,True,2023-06-20 08:48:08+00:00
+23825,if browser supports wasm but only asm.js path provided use asm.js as fallback,ulvido,2023-06-17 06:42:54+00:00,2023-06-20 10:35:18+00:00,True,2023-06-20 10:35:18+00:00
+23821,Force mat_wrapper import to satisfy dependencies for MatLike alias,asmorkalov,2023-06-16 18:52:02+00:00,2023-06-16 19:27:48+00:00,True,2023-06-16 19:27:48+00:00
+23820,removing unreachable code,kai-waang,2023-06-16 14:29:46+00:00,2023-06-19 16:10:03+00:00,False,
+23819,Fixed barcode to be built without DNN,asmorkalov,2023-06-16 12:13:22+00:00,2023-06-16 17:03:46+00:00,True,2023-06-16 17:03:46+00:00
+23818,Fix objectdetect module compilation without dnn,TolyaTalamanov,2023-06-16 10:18:53+00:00,2023-06-16 16:34:48+00:00,False,
+23816,Export enums ALL_CAPS version to typing stub files,VadimLevin,2023-06-15 19:53:26+00:00,2023-06-16 17:03:19+00:00,True,2023-06-16 17:03:19+00:00
+23815,Add single image support to VideoCapture,LaurentBerger,2023-06-15 19:31:35+00:00,2023-07-04 13:31:29+00:00,True,2023-07-04 13:31:29+00:00
+23814,Fix typo `confindece`,Avasam,2023-06-15 18:40:16+00:00,2023-07-05 14:51:32+00:00,True,2023-07-05 14:51:32+00:00
+23813,fix: typing module enums references,VadimLevin,2023-06-15 17:28:09+00:00,2023-06-16 15:20:44+00:00,True,2023-06-16 15:20:44+00:00
+23812,[opencv 3.x] back-ported tbb support ubuntu 22.04,dizcza,2023-06-15 16:36:02+00:00,2023-06-16 10:08:24+00:00,True,2023-06-16 10:08:24+00:00
+23811,replacing `NULL` by `nullptr`,kai-waang,2023-06-15 16:15:56+00:00,2023-06-16 12:14:49+00:00,False,
+23809,feat: re-export symbols to cv2 level,VadimLevin,2023-06-15 13:36:01+00:00,2023-06-16 17:01:24+00:00,True,2023-06-16 17:01:24+00:00
+23807,objdetect: updated barcode test,mshabunin,2023-06-15 12:35:34+00:00,2023-06-16 07:10:27+00:00,True,2023-06-16 07:10:27+00:00
+23806,Get rid of unsafe raw pointers to Mat object in USAC,asmorkalov,2023-06-15 10:26:03+00:00,2023-06-23 13:23:03+00:00,True,2023-06-23 13:23:03+00:00
+23805,GSoC: Modified PLY reader to support color attribute read/write,starga2er777,2023-06-15 09:45:41+00:00,2023-07-25 13:05:56+00:00,True,2023-07-25 13:05:56+00:00
+23801,feat: manual refinement for Python API definition,VadimLevin,2023-06-14 18:40:12+00:00,2023-06-21 07:44:36+00:00,True,2023-06-21 07:44:36+00:00
+23800,removing unreachable code and fixing a typo,kai-waang,2023-06-14 17:10:20+00:00,2023-06-15 14:28:34+00:00,True,2023-06-15 14:28:34+00:00
+23799,"G-API: Implement InferROI, InferList, InferList2 for OpenVINO backend",TolyaTalamanov,2023-06-14 15:30:49+00:00,2023-06-20 10:29:23+00:00,True,2023-06-20 10:29:23+00:00
+23798,feat: provide cv2.typing aliases at runtime,VadimLevin,2023-06-14 15:03:22+00:00,2023-06-15 11:41:13+00:00,True,2023-06-15 11:41:13+00:00
+23797,Barcode js bindings,asmorkalov,2023-06-14 13:56:54+00:00,2023-06-15 14:29:21+00:00,True,2023-06-15 14:29:21+00:00
+23796,G-API: Align IE Backend with the latest OpenVINO version,TolyaTalamanov,2023-06-14 11:58:16+00:00,2023-06-20 09:33:09+00:00,True,2023-06-20 09:33:09+00:00
+23795,Consider half pixel mode in ONNX resize,dkurt,2023-06-14 11:25:35+00:00,2023-06-16 07:21:21+00:00,True,2023-06-16 07:21:21+00:00
+23790,JS bindings for Aruco-based QR code detector,asmorkalov,2023-06-13 13:39:29+00:00,2023-06-14 14:05:09+00:00,True,2023-06-14 14:05:09+00:00
+23789,Added Aruco-based QR code detection method to python sample,asmorkalov,2023-06-13 12:39:38+00:00,2023-06-13 15:07:53+00:00,True,2023-06-13 15:07:53+00:00
+23788,Change Scalar assignment in Python from single value,dkurt,2023-06-13 07:46:04+00:00,2023-06-13 15:12:00+00:00,True,2023-06-13 15:12:00+00:00
+23786,G-API: Expose explicit preprocessing for IE Backend,TolyaTalamanov,2023-06-12 15:54:21+00:00,2023-06-14 06:29:49+00:00,True,2023-06-14 06:29:49+00:00
+23785,added Aruco MIP dictionaries,damianofalcioni,2023-06-12 13:55:23+00:00,2023-06-14 10:29:30+00:00,True,2023-06-14 10:29:30+00:00
+23783,remove unsupported unsupported unicode “”,zihaomu,2023-06-11 15:08:41+00:00,2023-06-12 14:49:37+00:00,True,2023-06-12 14:49:37+00:00
+23775,fixing typo of a variable name in dnn::runFastConv,kai-waang,2023-06-10 17:55:48+00:00,2023-06-12 14:50:13+00:00,True,2023-06-12 14:50:13+00:00
+23774,Update calib3d.hpp,mynickmynick,2023-06-10 17:11:38+00:00,2023-06-10 18:46:49+00:00,False,
+23772,Remove the obsolete malloc.h and memalign(),seanm,2023-06-09 15:44:17+00:00,2023-08-11 11:26:30+00:00,False,
+23769,JS bingings fix after Aruco-based QR code detector integration,asmorkalov,2023-06-09 13:09:18+00:00,2023-06-13 13:41:48+00:00,True,2023-06-13 13:41:48+00:00
+23768,build(ios): disable workaround for CMake 3.25.1+,opencv-alalek,2023-06-09 09:49:16+00:00,2023-06-10 06:23:26+00:00,True,2023-06-10 06:23:26+00:00
+23767,"fix Java bindings for EncodeMode, CorrectionLevel",AleksandrPanov,2023-06-09 09:14:37+00:00,2023-07-28 06:16:26+00:00,False,
+23766,G-API: Refine Semantic Segmentation Demo,TolyaTalamanov,2023-06-09 07:29:01+00:00,2023-06-13 15:06:19+00:00,True,2023-06-13 15:06:19+00:00
+23763,DNN: fix bug for X86 winograd,zihaomu,2023-06-08 00:35:35+00:00,2023-06-09 06:18:12+00:00,True,2023-06-09 06:18:12+00:00
+23762,G-API: OpenVINO Backend Hotfix,TolyaTalamanov,2023-06-07 14:44:06+00:00,2023-06-08 06:50:34+00:00,True,2023-06-08 06:50:34+00:00
+23761,checktype in blobFromImages and blobFromImagesWithParams,LaurentBerger,2023-06-07 14:18:38+00:00,2023-06-08 06:59:01+00:00,True,2023-06-08 06:59:01+00:00
+23758,Add graphical code detector interface,AleksandrPanov,2023-06-07 07:43:52+00:00,2023-06-09 12:46:32+00:00,True,2023-06-09 12:46:32+00:00
+23757,Fix calibrate,siilats,2023-06-07 02:10:36+00:00,2023-06-23 19:19:51+00:00,False,
+23754,Keep inliers for linear remap with BORDER_TRANSPARENT,dkurt,2023-06-06 17:08:17+00:00,2023-06-16 15:30:21+00:00,True,2023-06-16 15:30:21+00:00
+23750, imgproc/cvtColor: fixed invalid read in BGR2HLS,mshabunin,2023-06-05 20:09:33+00:00,2023-06-06 08:34:08+00:00,True,2023-06-06 08:34:08+00:00
+23748,fix Java bindings for cornerRefinementMethod binding,AleksandrPanov,2023-06-05 12:10:45+00:00,2023-06-06 06:59:13+00:00,True,2023-06-06 06:59:13+00:00
+23746,Assertion Fix in Split Layer,Abdurrahheem,2023-06-05 10:20:56+00:00,2023-06-07 13:01:42+00:00,True,2023-06-07 13:01:42+00:00
+23740,fixing typo in stitching parameter names,kai-waang,2023-06-04 11:22:24+00:00,2023-06-09 10:40:03+00:00,True,2023-06-09 10:40:02+00:00
+23734,Fixed invalid cast and unaligned memory access,seanm,2023-06-02 15:10:31+00:00,2023-08-11 12:23:09+00:00,True,2023-08-11 12:23:09+00:00
+23732,Fix missuse of try_gpu in stitching/FeatherBlender,vekkuli,2023-06-02 13:48:02+00:00,2023-06-06 07:00:36+00:00,True,2023-06-06 07:00:36+00:00
+23729,Fixed potential buffer overflow of user file name in create_samples_app,asmorkalov,2023-06-02 07:34:02+00:00,2023-06-03 07:13:11+00:00,True,2023-06-03 07:13:11+00:00
+23725,Refreshed JavaScript bindings for Aruco related algorithms,asmorkalov,2023-06-01 11:22:05+00:00,2023-06-10 06:21:24+00:00,True,2023-06-10 06:21:24+00:00
+23724,Build Java without ANT,dkurt,2023-06-01 09:51:41+00:00,2023-06-16 16:58:21+00:00,True,2023-06-16 16:58:21+00:00
+23722,Python package classifiers sync with OpenCV-Python repo,asmorkalov,2023-06-01 07:50:51+00:00,2023-06-01 10:53:36+00:00,True,2023-06-01 10:53:36+00:00
+23721,Fixed OpenJPEG 2000 compiler warning for some GCC versions (#23710),asmorkalov,2023-06-01 07:23:47+00:00,2023-06-02 06:40:46+00:00,True,2023-06-02 06:40:46+00:00
+23718,(5.x) Merge 4.x,asmorkalov,2023-05-31 11:44:14+00:00,2023-07-05 14:19:28+00:00,True,2023-07-05 14:19:27+00:00
+23715,Update segment_objects.cpp,Sujal-Rana-88,2023-05-31 05:50:35+00:00,2023-06-23 08:34:37+00:00,False,
+23714,modify the initial value of roots in solvePoly function,SEULiulh,2023-05-31 03:09:45+00:00,2023-06-02 09:36:58+00:00,False,
+23713,Issue23644,SEULiulh,2023-05-31 02:39:33+00:00,2023-05-31 02:44:16+00:00,False,
+23712,adding new tutorial to python tutorials convert rgb to gray,knowledgeshelfit,2023-05-30 17:43:06+00:00,2023-05-31 07:00:07+00:00,False,
+23711,dnn: moved NMSBoxes to imgproc module,mshabunin,2023-05-30 17:28:23+00:00,2023-06-02 11:18:56+00:00,False,
+23707,Addition of normalize_axis to ONNXImporter::parseSqueeze,oHotel,2023-05-30 08:52:23+00:00,2023-05-30 13:33:26+00:00,True,2023-05-30 13:33:26+00:00
+23705,Re-implement named parameters bindings for Python,asmorkalov,2023-05-29 13:14:51+00:00,2023-05-30 14:41:41+00:00,True,2023-05-30 14:41:41+00:00
+23703,Added missing index for skipping subgraph simplification ,Abdurrahheem,2023-05-29 11:58:01+00:00,2023-05-30 07:31:01+00:00,True,2023-05-30 07:31:01+00:00
+23702,Python binding for RotatedRect,dkurt,2023-05-29 08:54:40+00:00,2023-06-22 12:09:53+00:00,True,2023-06-22 12:09:53+00:00
+23699,Little refactors and add docstrings,gustavosett,2023-05-28 05:00:34+00:00,2023-05-28 07:51:54+00:00,False,
+23698,imgproc: add basic IntelligentScissorsMB performance test,cpoerschke,2023-05-27 19:41:43+00:00,2023-05-29 08:02:59+00:00,True,2023-05-29 08:02:59+00:00
+23695,Update setup.py,triple-Mu,2023-05-27 09:24:11+00:00,2023-05-27 15:29:34+00:00,True,2023-05-27 15:29:34+00:00
+23694,Update matchTemplate with mask,dkurt,2023-05-26 15:56:25+00:00,2023-05-27 06:42:56+00:00,True,2023-05-27 06:42:56+00:00
+23692,backport to 3.4: Fixed FPS computation on some videos for FFmpeg backend,asmorkalov,2023-05-26 11:57:02+00:00,2023-05-26 17:47:13+00:00,True,2023-05-26 17:47:13+00:00
+23691,Import and export np.float16 in Python,dkurt,2023-05-26 10:41:43+00:00,2023-05-26 15:56:21+00:00,True,2023-05-26 15:56:21+00:00
+23690,better accuracy for _rotatedRectangleIntersection() (proposal for #23546),chacha21,2023-05-26 08:06:50+00:00,2023-05-30 14:46:39+00:00,True,2023-05-30 14:46:39+00:00
+23688,imgproc: add contour values check to IntelligentScissorsMB tests,cpoerschke,2023-05-25 21:53:34+00:00,2023-06-07 08:32:18+00:00,True,2023-06-07 08:32:18+00:00
+23686,solve Issue 23685,LaurentBerger,2023-05-25 19:36:15+00:00,2023-05-26 07:53:29+00:00,True,2023-05-26 07:53:29+00:00
+23684,solve Issue I23683,LaurentBerger,2023-05-25 17:43:21+00:00,2023-05-26 09:01:51+00:00,True,2023-05-26 09:01:51+00:00
+23682,3rdparty: OpenJPEG update 2.4.0 => 2.5.0,asmorkalov,2023-05-25 15:02:03+00:00,2023-05-29 05:56:57+00:00,True,2023-05-29 05:56:57+00:00
+23680,Port to 5.x: Undistortion grid fix,asmorkalov,2023-05-25 12:11:30+00:00,2023-07-04 13:54:14+00:00,False,
+23679,Python bindings for CV_8UC(n) and other types macros,dkurt,2023-05-25 10:56:20+00:00,2023-05-25 12:54:41+00:00,True,2023-05-25 12:54:41+00:00
+23677,ObjC naming backport from 5.x,asmorkalov,2023-05-25 08:49:28+00:00,2023-05-26 15:54:34+00:00,True,2023-05-26 15:54:34+00:00
+23674,CV_MAKETYPE Python binding,dkurt,2023-05-24 19:38:56+00:00,2023-05-25 06:45:23+00:00,True,2023-05-25 06:45:23+00:00
+23672,Fix javadoc generation,mshabunin,2023-05-24 14:46:18+00:00,2023-05-24 20:07:28+00:00,True,2023-05-24 20:07:28+00:00
+23671,"DNN: fix potential bug, stride should not be set as 0.",zihaomu,2023-05-24 13:59:05+00:00,2023-05-25 10:36:38+00:00,True,2023-05-25 10:36:38+00:00
+23669,Fixed FPS computation on some videos for FFmpeg backend,asmorkalov,2023-05-24 13:18:06+00:00,2023-05-27 06:44:05+00:00,False,
+23668,WIP: [G-API] IE Backend: Update the condition for applying the resize preprocessing,TolyaTalamanov,2023-05-24 13:09:10+00:00,2023-06-01 10:55:08+00:00,True,2023-06-01 10:55:08+00:00
+23667,(4.x) Merge 3.4,asmorkalov,2023-05-24 12:23:35+00:00,2023-05-24 14:36:54+00:00,True,2023-05-24 14:36:54+00:00
+23666,Moved barcode from opencv_contrib,mshabunin,2023-05-24 11:34:13+00:00,2023-06-14 19:21:38+00:00,True,2023-06-14 19:21:38+00:00
+23665,Check for even dimensions in COLOR_YUV2RGB_*,vrabaud,2023-05-24 11:14:38+00:00,2023-05-24 11:36:46+00:00,False,
+23664,Added final constrants check to solveLP to filter out flating-point numeric issues,asmorkalov,2023-05-24 10:31:30+00:00,2023-05-26 12:13:50+00:00,True,2023-05-26 12:13:50+00:00
+23662,Fix truncated sentenced in boxPoints documentation #22975,akormous,2023-05-23 16:07:05+00:00,2023-05-24 08:41:26+00:00,True,2023-05-24 08:41:26+00:00
+23658,Fixed out-of-bound waring in cv::Mat::foreEach impl.,asmorkalov,2023-05-22 18:35:59+00:00,2023-05-23 09:04:25+00:00,False,
+23657,Added check that YUYV input of cvtColor has even width.,asmorkalov,2023-05-22 12:30:43+00:00,2023-05-23 12:07:49+00:00,True,2023-05-23 12:07:49+00:00
+23656,Build fix for AVX 256,peters,2023-05-22 09:34:34+00:00,2023-05-23 06:20:34+00:00,True,2023-05-23 06:20:34+00:00
+23655,Support ONNX operator QLinearSoftmax in dnn,fengyuentau,2023-05-22 08:19:00+00:00,2023-05-25 10:35:58+00:00,True,2023-05-25 10:35:58+00:00
+23654,DNN: add the Winograd fp16 support,zihaomu,2023-05-22 07:30:02+00:00,2023-11-20 10:45:38+00:00,True,2023-11-20 10:45:37+00:00
+23652,Update properties - typo,rahulnoronha,2023-05-21 08:36:07+00:00,2023-05-22 08:38:56+00:00,True,2023-05-22 08:38:56+00:00
+23651,Update matchTemplate with mask docstring,dkurt,2023-05-20 20:31:40+00:00,2023-05-26 15:47:24+00:00,False,
+23647,add charuco board check,AleksandrPanov,2023-05-18 22:43:07+00:00,2023-06-23 13:16:23+00:00,True,2023-06-23 13:16:23+00:00
+23646,Fix Region layer with OpenVINO in case of different width/height,dkurt,2023-05-18 14:45:53+00:00,2023-05-22 13:22:50+00:00,True,2023-05-22 13:22:50+00:00
+23645,Add assert to check if layer input size is not empty,Abdurrahheem,2023-05-18 13:21:23+00:00,2023-05-19 10:28:25+00:00,True,2023-05-19 10:28:25+00:00
+23642,Build OpenCV4Android with cmdline-tools,dkurt,2023-05-18 09:12:02+00:00,2023-05-18 09:39:06+00:00,False,
+23641,[CI] : add the ci node of Vulkan,zihaomu,2023-05-18 08:30:34+00:00,2023-05-22 13:32:52+00:00,True,2023-05-22 13:32:52+00:00
+23639,Add Contributor Metrics Widget,samad-yar-khan,2023-05-17 22:23:23+00:00,2023-05-18 06:46:41+00:00,False,
+23638,Proposed solution for issue #23633,soyszala,2023-05-17 21:20:31+00:00,2023-05-18 16:05:46+00:00,True,2023-05-18 16:05:45+00:00
+23637,try to solve issue I23633,LaurentBerger,2023-05-17 19:47:53+00:00,2023-05-17 20:21:21+00:00,False,
+23634,Fix even input dimensions for INTER_NEAREST_EXACT,dkurt,2023-05-17 13:27:14+00:00,2023-05-19 17:32:05+00:00,True,2023-05-19 17:32:05+00:00
+23632,Fixed mask handling in AffineFeature,asmorkalov,2023-05-17 08:06:39+00:00,2023-05-17 19:08:43+00:00,True,2023-05-17 19:08:43+00:00
+23631,Build warning fix on Windows for Eigen wrapper.,asmorkalov,2023-05-17 07:13:11+00:00,2023-05-19 18:06:41+00:00,True,2023-05-19 18:06:41+00:00
+23629,Restored Java bindings for CPU features management,asmorkalov,2023-05-16 15:30:45+00:00,2023-05-17 06:39:06+00:00,True,2023-05-17 06:39:06+00:00
+23625,DNN: Remove unnecessary flags for convolution ,zihaomu,2023-05-16 07:32:54+00:00,2023-05-26 09:59:37+00:00,True,2023-05-26 09:59:37+00:00
+23622,Update README.md,justinmerrell,2023-05-15 17:21:27+00:00,2023-05-16 04:02:15+00:00,False,
+23619,Fixes pixel info color font for dark Qt themes,TinyTinni,2023-05-15 15:54:45+00:00,2023-05-16 06:15:15+00:00,True,2023-05-16 06:15:15+00:00
+23618,remove unused var,LaurentBerger,2023-05-15 15:52:43+00:00,2023-05-16 06:16:47+00:00,True,2023-05-16 06:16:47+00:00
+23615,Fixed matchTemplate function. #23585,captain-n3m0,2023-05-15 12:03:29+00:00,2023-05-26 15:49:14+00:00,False,
+23614,LSTM ONNX Layout Attribute Support ,Abdurrahheem,2023-05-15 11:19:53+00:00,2023-05-17 19:46:56+00:00,True,2023-05-17 19:46:56+00:00
+23613,dnn: refactor reduce,fengyuentau,2023-05-15 10:05:55+00:00,2023-05-17 07:03:45+00:00,True,2023-05-17 07:03:45+00:00
+23612,QRCodeDetector: don't floodFill with outside-of-image seedPoint,cpoerschke,2023-05-14 20:21:53+00:00,2023-05-22 10:34:30+00:00,True,2023-05-22 10:34:30+00:00
+23611,QRCodeDetector: don't floodFill with outside-of-image seedPoint,cpoerschke,2023-05-14 20:12:36+00:00,2023-05-14 20:22:43+00:00,False,
+23607,Fix crash in ap3p,alexander-varjo,2023-05-11 14:26:03+00:00,2023-09-04 14:49:46+00:00,True,2023-09-04 14:49:46+00:00
+23606,"videoio/FFmpeg: increased packet read attempt limit, allow configuring it",mshabunin,2023-05-11 12:54:29+00:00,2023-05-16 11:31:04+00:00,True,2023-05-16 11:31:04+00:00
+23604,Build DNN without Protobuf,dkurt,2023-05-11 07:28:52+00:00,2023-05-15 09:23:19+00:00,True,2023-05-15 09:23:19+00:00
+23601,Videoio: FFMpeg remove locks from `VideoCapure/VideoWriter::open()` to fix 20114,cudawarped,2023-05-10 13:57:57+00:00,2023-05-19 17:33:25+00:00,True,2023-05-19 17:33:25+00:00
+23600,Update FlatBuffers source code to 23.5.9,dkurt,2023-05-10 11:43:35+00:00,2023-05-10 13:01:44+00:00,True,2023-05-10 13:01:44+00:00
+23599,WIP: objc fix testing,asmorkalov,2023-05-10 08:48:48+00:00,2023-05-10 11:08:33+00:00,False,
+23598,Fix Objective-C generator handling of base class names,komakai,2023-05-10 06:44:19+00:00,2023-05-10 11:07:38+00:00,True,2023-05-10 11:07:38+00:00
+23597,G-API: Integration branch for ONNX & Python-related changes,dmatveev,2023-05-09 19:33:29+00:00,2023-05-30 14:52:17+00:00,True,2023-05-30 14:52:17+00:00
+23596,Add AVIF support through libavif.,vrabaud,2023-05-09 13:28:38+00:00,2023-06-09 12:39:11+00:00,True,2023-06-09 12:39:11+00:00
+23595,[G-API] Implement OpenVINO 2.0 backend,TolyaTalamanov,2023-05-09 12:52:44+00:00,2023-06-02 11:31:03+00:00,True,2023-06-02 11:31:03+00:00
+23594,"fix: traincascade, use C++ persistence API",fdivitto,2023-05-09 09:54:59+00:00,2023-05-23 06:19:28+00:00,True,2023-05-23 06:19:28+00:00
+23591,"Add int64, uint64, bool, uint data type.",zihaomu,2023-05-09 07:54:38+00:00,2023-06-19 14:07:21+00:00,False,
+23588,"fix: traincascade, use C++ persistence API",fdivitto,2023-05-08 16:40:39+00:00,2023-05-09 09:35:37+00:00,False,
+23587,added charuco pattern into calibrate.py,vovka643,2023-05-08 14:46:50+00:00,2023-05-17 15:30:30+00:00,True,2023-05-17 15:30:30+00:00
+23583,Update aruco_detect_board_charuco.py,siilats,2023-05-05 17:23:29+00:00,2023-05-10 06:55:12+00:00,True,2023-05-10 06:55:12+00:00
+23582,WIP: Experiments on top of new QR code detector,asmorkalov,2023-05-05 12:29:10+00:00,2023-05-05 14:09:06+00:00,False,
+23575,add ChArUco board pattern into calib3d/camera_calibration,vovka643,2023-05-04 21:14:48+00:00,2023-05-19 18:06:23+00:00,True,2023-05-19 18:06:23+00:00
+23572,(docs) Depthmap py_tutorial: add reference to cv.StereoBM class documentation ,gabrielnhn,2023-05-03 16:23:01+00:00,2023-05-05 06:46:16+00:00,True,2023-05-05 06:46:16+00:00
+23567,Reformulated some pointer arithmetic to avoid (unsigned) overflow,seanm,2023-05-01 22:31:37+00:00,2023-05-29 09:19:34+00:00,True,2023-05-29 09:19:34+00:00
+23566,Use std::atomic<bool> as it's necessary for correct thread safety,seanm,2023-05-01 20:45:01+00:00,2023-05-16 10:47:10+00:00,True,2023-05-16 10:47:10+00:00
+23565,Fix function name in comment,MaximSmolskiy,2023-04-30 14:31:00+00:00,2023-05-01 08:13:15+00:00,True,2023-05-01 08:13:15+00:00
+23564,[EASY][Typo] Lets fix `OPENCV_SOVERSION` major version number.,artisanmaster,2023-04-29 09:22:55+00:00,2023-04-29 09:56:57+00:00,False,
+23563,(doc) fix py_tutorials depthmap using cv.StereoSGBM,gabrielnhn,2023-04-29 05:16:42+00:00,2023-05-03 11:18:14+00:00,False,
+23560,DNN/CUDA: Solve the bug of same shape broadcast with CUDA,WanliZhong,2023-04-28 09:35:07+00:00,2023-05-16 11:16:38+00:00,True,2023-05-16 11:16:38+00:00
+23557,fix nary elementwise bug in cpu,WanliZhong,2023-04-28 06:22:31+00:00,2023-05-11 12:56:46+00:00,True,2023-05-11 12:56:46+00:00
+23555,don't ignore documentation for cv::format in doxygen,LaurentBerger,2023-04-28 00:34:05+00:00,2023-04-28 12:24:07+00:00,True,2023-04-28 12:24:07+00:00
+23550,dnn: add more CANN operators to support SAM,fengyuentau,2023-04-26 10:32:50+00:00,2023-12-23 09:52:37+00:00,False,
+23545,Added test for LSTM without hidden state initialisation,Abdurrahheem,2023-04-25 13:22:52+00:00,2023-04-27 13:27:42+00:00,True,2023-04-27 13:27:42+00:00
+23541,`VideoCapture`: fix opencv/contrib/#3474,cudawarped,2023-04-25 05:27:28+00:00,2023-04-25 22:00:30+00:00,True,2023-04-25 22:00:30+00:00
+23540,`VideoCapture`: change `CAP_PROP_FOURCC` to fix #22876,cudawarped,2023-04-25 04:53:56+00:00,2023-06-22 09:22:00+00:00,True,2023-06-22 09:22:00+00:00
+23538,Fixed a typo in `documentation.yml` and `feature_request.yml`,Avasam,2023-04-24 17:05:14+00:00,2023-04-26 09:28:13+00:00,True,2023-04-26 09:28:13+00:00
+23535,Fix ocl::device::isIntel implementation,komakai,2023-04-24 13:10:27+00:00,2023-04-24 15:55:05+00:00,True,2023-04-24 15:55:04+00:00
+23532,TEMPORARY PR FOR CHECKING CUDA errors ,Abdurrahheem,2023-04-24 07:21:39+00:00,2023-04-27 11:14:08+00:00,False,
+23531,Add python sample of how to use Orbbec camera.,kaingwade,2023-04-24 06:49:44+00:00,2023-04-24 09:12:01+00:00,True,2023-04-24 09:12:01+00:00
+23529,Bump supported ONNX RT version to 1.14.1,dmatveev,2023-04-23 23:35:55+00:00,2023-04-28 12:19:07+00:00,True,2023-04-28 12:19:06+00:00
+23528,DNN/CUDA: make 'abcd op 1b11' broadcast eltwise operator support cuda,WanliZhong,2023-04-23 09:53:52+00:00,2023-04-24 16:31:55+00:00,True,2023-04-24 16:31:55+00:00
+23527,Fixed bug with Cmake detecting Python environment,zhixuwei,2023-04-23 03:16:00+00:00,2023-04-28 09:02:50+00:00,False,
+23523,(4.x) Merge 3.4,asmorkalov,2023-04-20 14:17:45+00:00,2023-04-21 12:24:09+00:00,True,2023-04-21 12:24:09+00:00
+23518,Updated PGP key for security reports,mshabunin,2023-04-19 16:18:23+00:00,2023-04-20 06:45:52+00:00,True,2023-04-20 06:45:52+00:00
+23515,added aruco pattern support into stereo_calibration.cpp,vovka643,2023-04-19 13:57:35+00:00,2023-05-16 11:19:53+00:00,True,2023-05-16 11:19:53+00:00
+23514,updated mac catalyst target to be compatible with latest xCode / macos,sarsonj,2023-04-19 12:36:50+00:00,2023-05-29 09:18:17+00:00,True,2023-05-29 09:18:17+00:00
+23513,"Fix ""unrecognized selector"" issue in Objective-C/Swift bindings",komakai,2023-04-19 12:17:18+00:00,2023-04-24 08:29:42+00:00,True,2023-04-24 08:29:42+00:00
+23511,DNN: try to fix the sporadic crashes in perf_dnn,zihaomu,2023-04-19 12:04:18+00:00,2023-04-22 04:01:39+00:00,True,2023-04-22 04:01:39+00:00
+23510,4.x.sz,sandeepzac,2023-04-19 11:16:41+00:00,2023-04-19 11:25:13+00:00,False,
+23506,Fix typos in aruco_detector.hpp,MvWouden,2023-04-18 12:06:28+00:00,2023-04-18 14:50:56+00:00,True,2023-04-18 14:50:55+00:00
+23504,first commit,Xand93,2023-04-18 03:03:24+00:00,2023-04-18 03:04:26+00:00,False,
+23503,Fixed undefined left shifting of negative number,seanm,2023-04-17 20:34:02+00:00,2023-04-20 09:10:05+00:00,True,2023-04-20 09:10:05+00:00
+23502,more sprintf removals,seanm,2023-04-17 18:56:11+00:00,2023-04-26 19:41:20+00:00,True,2023-04-26 19:41:20+00:00
+23501,Added LSTM and GRU tests for various batch and input length sizes,Abdurrahheem,2023-04-17 14:48:30+00:00,2023-04-20 07:11:34+00:00,True,2023-04-20 07:11:34+00:00
+23499,ADD weights  yolov4-tiny in models.yml,cabelo,2023-04-17 05:59:33+00:00,2023-04-21 12:26:20+00:00,True,2023-04-21 12:26:20+00:00
+23498,Error with an incorrect trained Haar model,georgedem975,2023-04-16 02:55:40+00:00,2023-09-20 12:46:57+00:00,False,
+23495,Fix aruco module CORNER_REFINE_CONTOUR parameter gets skipped,smeng9,2023-04-15 12:56:13+00:00,2023-04-20 09:02:43+00:00,True,2023-04-20 09:02:43+00:00
+23491,Fixes for Segment Anything,fengyuentau,2023-04-14 07:38:17+00:00,2023-05-04 18:07:58+00:00,True,2023-05-04 18:07:58+00:00
+23487,fix warning in pointPolygonTest,Gaotianhong,2023-04-13 05:16:23+00:00,2023-04-13 10:52:44+00:00,True,2023-04-13 10:52:44+00:00
+23486,Add charuco pattern into calibration.cpp,vovka643,2023-04-12 20:52:35+00:00,2023-04-26 09:13:17+00:00,True,2023-04-26 09:13:17+00:00
+23485,DNN: add ONNX where node support,zihaomu,2023-04-12 08:25:40+00:00,2023-05-05 06:21:07+00:00,True,2023-05-05 06:21:07+00:00
+23484,Fix build regression in Quirc,AleksandrPanov,2023-04-12 08:14:15+00:00,2023-04-12 17:49:10+00:00,True,2023-04-12 17:49:09+00:00
+23483,"fix: traincascade, use C++ persistence API to compile with 4.x",fdivitto,2023-04-11 21:43:59+00:00,2023-04-12 06:21:19+00:00,False,
+23482,DNN: support the split node of onnx opset >= 13,zihaomu,2023-04-11 08:07:38+00:00,2023-04-14 08:59:57+00:00,True,2023-04-14 08:59:57+00:00
+23479,Charuco board into interactive calibration,vovka643,2023-04-10 13:15:18+00:00,2023-05-05 08:25:36+00:00,True,2023-05-05 08:25:36+00:00
+23477,[G-API] Handle meta from multiple inputs in IE backend,TolyaTalamanov,2023-04-10 09:56:28+00:00,2023-04-12 07:17:59+00:00,True,2023-04-12 07:17:59+00:00
+23476,Add notes for the output format of FaceDetectorYN.detect(),fengyuentau,2023-04-10 08:34:15+00:00,2023-04-11 09:39:22+00:00,True,2023-04-11 09:39:22+00:00
+23475,Fix ONNX parser for single-layer LSTM hidden and cell states,Abdurrahheem,2023-04-09 12:35:59+00:00,2023-04-24 10:39:41+00:00,True,2023-04-24 10:39:41+00:00
+23473,attempt to add 0d/1d mat support to OpenCV,vpisarev,2023-04-08 20:58:06+00:00,2023-09-21 15:24:39+00:00,True,2023-09-21 15:24:39+00:00
+23469,Use NV12 instead of YUY2 for OBS Virtual Camera.,gottagofaster236,2023-04-07 03:16:23+00:00,2023-04-10 13:39:25+00:00,True,2023-04-10 13:39:25+00:00
+23468,Python tutorial intro small grammar update,migdall,2023-04-06 19:53:16+00:00,2023-04-07 08:17:33+00:00,True,2023-04-07 08:17:33+00:00
+23462,Libraw,LaurentBerger,2023-04-05 09:42:44+00:00,2023-12-13 07:41:07+00:00,False,
+23460,Fix OBS Virtual Camera capture.,gottagofaster236,2023-04-05 06:06:01+00:00,2023-04-06 08:48:40+00:00,True,2023-04-06 08:48:40+00:00
+23451,add opencv.js imread function can use OffscreenCanvas,Zero2key,2023-04-03 02:34:35+00:00,2023-04-04 08:05:53+00:00,True,2023-04-04 08:05:53+00:00
+23449,Switch `rows` and `cols` in call to Mat.zeros,Zwyx,2023-04-02 15:03:36+00:00,2023-04-04 08:11:22+00:00,True,2023-04-04 08:11:22+00:00
+23448,G-API: Fix compilation error in Standalone mode,dmatveev,2023-04-02 14:59:19+00:00,2023-04-03 11:21:31+00:00,True,2023-04-03 11:21:31+00:00
+23447,AGP 8.0 build.gradle namespace and aidl buildFeature requirement added,onuralpszr,2023-04-01 20:17:19+00:00,2023-04-28 10:41:40+00:00,True,2023-04-28 10:41:40+00:00
+23446,bmp decoder fix scale factor and IMREAD_COLOR incorrect result,tantei3,2023-04-01 15:06:18+00:00,2023-04-06 11:34:36+00:00,True,2023-04-06 11:34:36+00:00
+23444,Create FUNDING.yml,AnnaPetrovicheva,2023-04-01 14:48:07+00:00,2023-04-06 07:59:30+00:00,True,2023-04-06 07:59:30+00:00
+23443,Update of IPP integration,eplankin,2023-03-31 19:17:31+00:00,2023-04-07 09:14:43+00:00,True,2023-04-07 09:14:43+00:00
+23442,Fix image loading in tutorials code,LaurentBerger,2023-03-31 15:41:42+00:00,2023-04-06 10:02:00+00:00,True,2023-04-06 10:02:00+00:00
+23441,Replace uint32 by uint32_t in grfmt_tiff.cpp,y-guyon,2023-03-31 12:51:30+00:00,2023-04-07 10:34:54+00:00,False,
+23439,Newton PNP Solver,galgibly,2023-03-30 14:17:34+00:00,2023-04-14 08:21:42+00:00,False,
+23436,Fix python bindings for setCharucoParameters,siilats,2023-03-29 19:45:36+00:00,2023-04-17 10:02:28+00:00,True,2023-04-17 10:02:28+00:00
+23433,imgcodecs: tiff: Support to encode for CV_32S with compression params,Kumataro,2023-03-29 13:16:37+00:00,2023-04-11 07:50:47+00:00,True,2023-04-11 07:50:47+00:00
+23432,Fix flipped image in documentation,smeng9,2023-03-29 12:46:18+00:00,2023-04-11 02:23:32+00:00,False,
+23419,"Several fixes for ONNX importer: Expand, Gather",dkurt,2023-03-27 16:48:42+00:00,2023-04-02 08:40:57+00:00,True,2023-04-02 08:40:57+00:00
+23418,RISC-V: fix hardcoded options in RVV 0.7.1 toolchain file,mshabunin,2023-03-27 15:43:50+00:00,2023-04-02 09:44:49+00:00,True,2023-04-02 09:44:49+00:00
+23417,fix cmakelists of parallel backend example,souch,2023-03-27 14:07:38+00:00,2023-04-11 07:14:56+00:00,True,2023-04-11 07:14:56+00:00
+23414,Fixes #23413 gen_pattern.py --markers option ,vidmak,2023-03-26 11:42:19+00:00,2023-04-20 10:10:45+00:00,False,
+23411,improve performance a little bit in dis_flow.cpp,Valkierja,2023-03-26 06:51:46+00:00,2023-03-27 16:22:58+00:00,False,
+23410,imgcodecs: update documentation for imwrite() to support images formats.,Kumataro,2023-03-26 00:24:37+00:00,2023-04-02 09:06:01+00:00,True,2023-04-02 09:06:01+00:00
+23409,Import and inference INT8 quantized TFLite model,dkurt,2023-03-25 18:19:00+00:00,2023-04-24 10:44:11+00:00,True,2023-04-24 10:44:11+00:00
+23408,delete a mistake typing from some history commit,Valkierja,2023-03-25 14:26:10+00:00,2023-03-26 04:53:49+00:00,False,
+23405,[Update Readme.md] Added some description about OpenCV in raedme file and the resources are presented in a tabuler form.,Himanshu-Vishwas,2023-03-25 03:59:22+00:00,2023-03-25 11:48:37+00:00,False,
+23402,Typo in enum cv::QuatEnum::EulerAnglesType,LaurentBerger,2023-03-24 13:06:55+00:00,2023-03-24 15:11:48+00:00,True,2023-03-24 15:11:48+00:00
+23401,dnn: Support more operators in CANN backend,fengyuentau,2023-03-24 10:48:01+00:00,2023-04-20 07:18:35+00:00,True,2023-04-20 07:18:35+00:00
+23399,Fix create aruco Board in Python,AleksandrPanov,2023-03-24 08:53:57+00:00,2023-03-24 12:38:54+00:00,True,2023-03-24 12:38:54+00:00
+23394,add scrollWheel to Cocoa,thewoz,2023-03-23 14:43:41+00:00,2023-04-12 07:32:46+00:00,True,2023-04-12 07:32:46+00:00
+23393,"fix: traincascade, use C++ persistence API to compile with 4.x",fdivitto,2023-03-22 17:51:05+00:00,2023-04-11 21:41:11+00:00,False,
+23390,check keydown event characters length on macos,just-gull,2023-03-22 07:33:04+00:00,2023-04-02 09:29:56+00:00,True,2023-04-02 09:29:55+00:00
+23388,Make LineSegmentDetector deterministic by using stable_sort,simonlynen,2023-03-22 03:13:15+00:00,2023-03-23 13:18:30+00:00,True,2023-03-23 13:18:30+00:00
+23386,Python tutorial links update,asmorkalov,2023-03-21 12:34:24+00:00,2023-03-21 14:34:40+00:00,True,2023-03-21 14:34:40+00:00
+23383,"RISC-V: allow building scalable RVV support with GCC, LLVM 16 support",mshabunin,2023-03-21 09:32:59+00:00,2023-04-10 13:36:22+00:00,True,2023-04-10 13:36:22+00:00
+23381,two typos,ct2034,2023-03-20 21:27:10+00:00,2023-03-22 06:53:38+00:00,True,2023-03-22 06:53:38+00:00
+23380,Fix error of `POSE_PAIRS` in pose estimation doc,zero-nnkn,2023-03-20 16:15:50+00:00,2023-03-21 12:58:46+00:00,True,2023-03-21 12:58:45+00:00
+23379,Add  ScrollWheel in Cocoa ,thewoz,2023-03-20 15:40:01+00:00,2023-03-21 12:21:33+00:00,False,
+23377,use findFile in opengl.cpp sample,LaurentBerger,2023-03-20 14:46:59+00:00,2023-03-21 09:58:59+00:00,True,2023-03-21 09:58:59+00:00
+23375,cmake: fix V4L config verification conflict with OBSENSOR,mshabunin,2023-03-19 08:01:28+00:00,2023-04-18 10:05:04+00:00,True,2023-04-18 10:05:04+00:00
+23371,`cuda`: Add bindings to allow `GpuMat` and `Stream` objects to be initialized from memory initialized in other libraries,cudawarped,2023-03-17 17:36:07+00:00,2023-05-22 15:17:12+00:00,True,2023-05-22 15:17:12+00:00
+23370,Include keypoint positions in sorting of points by norm to tie-break,simonlynen,2023-03-17 16:46:55+00:00,2023-03-22 03:13:42+00:00,False,
+23367,Note for MSMF in doc,LaurentBerger,2023-03-17 12:42:26+00:00,2023-03-24 14:16:52+00:00,True,2023-03-24 14:16:52+00:00
+23363,added charuco board generation to gen_pattern.py,vovka643,2023-03-16 09:05:09+00:00,2023-05-19 17:25:59+00:00,True,2023-05-19 17:25:59+00:00
+23358,Minor grammatical fixes to dnn_custom_layers doc file,Abdurrahheem,2023-03-15 13:41:28+00:00,2023-03-17 09:59:39+00:00,True,2023-03-17 09:59:39+00:00
+23357,DNN : Fix Winograd optimization on x86 32-bit CPUs,zihaomu,2023-03-15 00:25:39+00:00,2023-03-15 08:24:55+00:00,True,2023-03-15 08:24:54+00:00
+23356,Optimize&Fix fitEllipse sample,TuNanTang,2023-03-14 13:45:03+00:00,2023-03-17 10:02:14+00:00,True,2023-03-17 10:02:14+00:00
+23354,DNN : fix bug in layer fusion,zihaomu,2023-03-14 10:30:32+00:00,2023-03-14 14:23:26+00:00,True,2023-03-14 14:23:26+00:00
+23353,Fix bugs of test case failure,tingboliao,2023-03-14 09:07:11+00:00,2023-03-14 11:42:59+00:00,True,2023-03-14 11:42:59+00:00
+23350,Fix reference counting errors in registerNewType,spikethehobbitmage,2023-03-14 06:08:41+00:00,2023-04-03 11:08:32+00:00,True,2023-04-03 11:08:32+00:00
+23349,DNN: optimize dnn vulkan backend,zihaomu,2023-03-14 05:29:51+00:00,2023-05-18 17:02:27+00:00,True,2023-05-18 17:02:27+00:00
+23344,Add possibility for disabling inlining `wasm` in `opencv.js`,anderskiaer,2023-03-11 20:49:15+00:00,2023-03-21 12:01:53+00:00,True,2023-03-21 12:01:52+00:00
+23343,DNN Test ONNX: Fix the logic of the test case,zihaomu,2023-03-11 19:41:28+00:00,2023-03-13 18:48:42+00:00,True,2023-03-13 18:48:42+00:00
+23342,improve document of `cv::RotatedRect` for #23335,n0099,2023-03-10 14:40:19+00:00,2023-05-03 11:15:54+00:00,True,2023-05-03 11:15:54+00:00
+23341,Fix Sharpen function Bug,TuNanTang,2023-03-10 14:00:06+00:00,2023-03-14 13:09:54+00:00,True,2023-03-14 13:09:54+00:00
+23332,port it to C++ API cvGetWindowHandle(),thewoz,2023-03-08 16:48:11+00:00,2023-03-17 13:51:43+00:00,False,
+23325,Propagate inputs info for ONNX and TFLite models,dkurt,2023-03-03 10:12:06+00:00,2023-03-21 11:50:54+00:00,True,2023-03-21 11:50:54+00:00
+23321,"fix ""ImportError: DLL load failed while importing cv2"" while installing from pre-built binaries",a-sajjad72,2023-03-02 15:01:50+00:00,2023-04-02 09:00:35+00:00,True,2023-04-02 09:00:35+00:00
+23320,"fix ""ImportError: DLL load failed while importing cv2""",a-sajjad72,2023-03-02 14:04:34+00:00,2023-03-02 14:07:59+00:00,False,
+23319,dnn CANN backend: fix some bugs and add some features,fengyuentau,2023-03-02 09:23:40+00:00,2023-03-13 18:46:34+00:00,True,2023-03-13 18:46:33+00:00
+23317,DNN: add gemm performance test in dnn,zihaomu,2023-03-02 02:14:01+00:00,2023-04-02 12:55:08+00:00,False,
+23310,Fix HAL compatibility layer,hanliutong,2023-02-28 14:54:13+00:00,2023-04-11 09:43:55+00:00,True,2023-04-11 09:43:54+00:00
+23309,Fix bugs of test case failure,tingboliao,2023-02-28 05:50:22+00:00,2023-03-14 08:37:15+00:00,False,
+23307,core(simd): 64-bit integer EQ/NE without misused 64F guard,alalek,2023-02-27 03:36:23+00:00,2023-03-24 09:46:18+00:00,True,2023-03-24 09:46:18+00:00
+23305,Fix calib3d undistortion grid,bhavitp,2023-02-26 01:01:34+00:00,2023-03-10 06:50:37+00:00,True,2023-03-10 06:50:37+00:00
+23301,Fixed strict type in slerp and spline; Fixed nlerp usage condition,shtern,2023-02-24 22:11:25+00:00,2023-03-10 08:37:43+00:00,True,2023-03-10 08:37:43+00:00
+23300,Support VideoCapture CAP_PROP_AUTO_WB and CV_CAP_PROP_WHITE_BALANCE_BLUE_U for DShow,ippei-i,2023-02-24 14:51:05+00:00,2023-03-21 11:29:24+00:00,True,2023-03-21 11:29:24+00:00
+23296,Fix identifying initializers in ONNX graph simplification,fengyuentau,2023-02-24 08:31:47+00:00,2023-04-06 12:35:32+00:00,True,2023-04-06 12:35:32+00:00
+23294,Fix sharpen function,TuNanTang,2023-02-23 15:17:48+00:00,2023-02-23 15:18:20+00:00,False,
+23292,Add ENABLE_DELAYLOAD option,CSBVision,2023-02-23 10:20:24+00:00,2023-03-17 13:53:40+00:00,True,2023-03-17 13:53:40+00:00
+23291,remove flags of obsolete VideoCapture backends,vovka643,2023-02-22 17:03:14+00:00,2023-03-15 06:41:37+00:00,True,2023-03-15 06:41:37+00:00
+23290,4.x deprecated VideoCapture backends,vovka643,2023-02-22 16:57:53+00:00,2023-05-05 14:09:29+00:00,True,2023-05-05 14:09:29+00:00
+23289,Fix sharpen function bug,TuNanTang,2023-02-22 15:17:11+00:00,2023-03-10 14:01:00+00:00,False,
+23287,dnn(tflite): fix wrong axis normalization,alalek,2023-02-21 21:24:15+00:00,2023-02-22 10:23:50+00:00,True,2023-02-22 10:23:50+00:00
+23283,Fix signed integer overflow.,vrabaud,2023-02-20 22:55:36+00:00,2023-03-10 07:04:08+00:00,True,2023-03-10 07:04:08+00:00
+23276,Fixed potential memory leak in flann,vovka643,2023-02-19 09:23:41+00:00,2023-03-14 12:00:44+00:00,True,2023-03-14 12:00:44+00:00
+23275,"Added QR_Code data flip support, flip and retry after first ECC failure",neg-c,2023-02-18 22:23:53+00:00,2023-03-21 12:03:30+00:00,True,2023-03-21 12:03:30+00:00
+23274,dnn(tflite): add 3rdparty flatbuffers with pre-generated schema,alalek,2023-02-18 16:33:26+00:00,2023-02-21 18:43:16+00:00,True,2023-02-21 18:43:16+00:00
+23272,update for #23270,vpisarev,2023-02-17 17:36:47+00:00,2023-02-17 21:07:46+00:00,True,2023-02-17 21:07:46+00:00
+23271,Aruco/Charuco test case fixes for floating point for loops,stefan523,2023-02-17 15:50:23+00:00,2023-03-30 08:22:14+00:00,True,2023-03-30 08:22:14+00:00
+23270,"temporarily set ""enable_precise_upscale=false"" by default",vpisarev,2023-02-17 14:32:35+00:00,2023-02-17 15:57:38+00:00,True,2023-02-17 15:57:38+00:00
+23268,fix: remove extra '/O' modifier for '/IO' arguments,VadimLevin,2023-02-17 09:30:52+00:00,2023-03-10 08:05:03+00:00,True,2023-03-10 08:05:03+00:00
+23264,Add detect qr with aruco,AleksandrPanov,2023-02-17 01:31:03+00:00,2023-06-02 13:18:25+00:00,True,2023-06-02 13:18:25+00:00
+23261,Remove separator between trackbars.,vovka643,2023-02-16 12:19:43+00:00,2023-03-13 10:51:57+00:00,True,2023-03-13 10:51:57+00:00
+23260,highgui: Reduce the difference between GTK+2 and GTK+3 version,tintou,2023-02-16 11:31:10+00:00,2023-03-14 06:11:53+00:00,True,2023-03-14 06:11:53+00:00
+23259,"[G-API] Support ""frame dropping"" for cv::gapi::streaming::desync",TolyaTalamanov,2023-02-16 08:55:58+00:00,2023-05-04 19:03:29+00:00,False,
+23258,remove separator between trackbars,vovka643,2023-02-15 21:37:35+00:00,2023-02-16 12:10:38+00:00,False,
+23255,DNN: fuse conv+naryEletwise on CUDA backend.,zihaomu,2023-02-15 05:35:47+00:00,2023-02-17 10:18:14+00:00,True,2023-02-17 10:18:13+00:00
+23253,"test tuotorial for the second stage....after i clone the forked repository, when through the folder to go edit some test there, then i commit and push to my github account @opencv @meshmmanuel",Horlaboi,2023-02-14 23:16:18+00:00,2023-02-15 11:00:04+00:00,False,
+23251,Remove GTK+2 support,tintou,2023-02-14 15:39:51+00:00,2023-04-12 07:14:55+00:00,False,
+23250,highgui: Set hard GLib requirement to >=2.32,tintou,2023-02-14 12:31:39+00:00,2023-03-21 12:22:35+00:00,True,2023-03-21 12:22:35+00:00
+23247,Fix focal length estimation from homography matrix,lilithgrigoryan,2023-02-13 17:35:29+00:00,2023-02-15 15:43:04+00:00,True,2023-02-15 15:43:03+00:00
+23246,RISC-V: support RVV 0.7 in mainline RVV intrinsics,mshabunin,2023-02-13 15:48:37+00:00,2023-02-20 18:07:59+00:00,True,2023-02-20 18:07:59+00:00
+23244,cmake: debug preprocessor dump for GCC/Clang,mshabunin,2023-02-13 11:34:44+00:00,2023-03-09 21:31:08+00:00,False,
+23243,DNN/CUDA: let ADD operator run on CUDA,WanliZhong,2023-02-13 07:57:13+00:00,2023-02-14 16:26:14+00:00,True,2023-02-14 16:26:14+00:00
+23239,(4.x) Merge 3.4,alalek,2023-02-11 18:35:26+00:00,2023-02-11 20:27:23+00:00,True,2023-02-11 20:27:23+00:00
+23237,videoio: add support for Orbbec Femto Mega RGB-D camera,hzcyf,2023-02-11 08:24:24+00:00,2023-03-01 07:13:39+00:00,True,2023-03-01 07:13:39+00:00
+23225,Fix clang 14 warnings,mshabunin,2023-02-06 19:23:35+00:00,2023-02-08 17:29:37+00:00,True,2023-02-08 17:29:36+00:00
+23224,feat: named arguments handling in Python interface,VadimLevin,2023-02-06 14:00:05+00:00,2023-02-08 17:31:40+00:00,True,2023-02-08 17:31:40+00:00
+23222,Update charuco_detector.cpp,siilats,2023-02-06 00:40:31+00:00,2023-02-07 15:31:43+00:00,True,2023-02-07 15:31:43+00:00
+23219,Add GELU layer for vision transformers,fengyuentau,2023-02-04 16:15:04+00:00,2023-02-10 18:03:30+00:00,True,2023-02-10 18:03:30+00:00
+23217,Change generated header file output location,laitingsheng,2023-02-03 10:18:14+00:00,2023-02-05 20:08:57+00:00,True,2023-02-05 20:08:57+00:00
+23214,Warning supression fix for XCode 13.1 and newer. Backport #23203,asmorkalov,2023-02-02 10:58:10+00:00,2023-02-06 18:30:32+00:00,True,2023-02-06 18:30:32+00:00
+23211,[G-API] Pipeline modeling tool: Refactor calculating performance statistics,TolyaTalamanov,2023-02-01 14:57:37+00:00,2023-02-15 11:04:15+00:00,True,2023-02-15 11:04:15+00:00
+23210,Fix rect_nfa (lsd),ibaiGorordo,2023-02-01 10:15:30+00:00,2023-02-08 17:33:07+00:00,True,2023-02-08 17:33:07+00:00
+23209,Fixes #23187 (part 1),CSBVision,2023-02-01 07:50:08+00:00,2023-02-09 10:44:02+00:00,True,2023-02-09 10:44:02+00:00
+23204,Fix rootsift,whuaegeanse,2023-01-31 17:36:19+00:00,2023-02-01 16:52:40+00:00,True,2023-02-01 16:52:39+00:00
+23203,Supress tones of -Wdeprecated-copy warnings,asmorkalov,2023-01-31 17:16:35+00:00,2023-02-02 15:09:15+00:00,True,2023-02-02 15:09:15+00:00
+23200,Add an enhanced version of sift,whuaegeanse,2023-01-31 04:10:43+00:00,2023-03-22 01:07:44+00:00,False,
+23198,RISC-V RVV 0.7: v_add/v_sub saturation and avoiding 64-bit VLEN,mshabunin,2023-01-30 20:32:08+00:00,2023-01-31 13:13:16+00:00,True,2023-01-31 13:13:16+00:00
+23197,Fixed documentation error,Vardhan-Kaashikar,2023-01-30 17:49:28+00:00,2023-01-31 16:19:24+00:00,False,
+23196,added argument to print notice in `roiSelector.cpp`,labeeb-7z,2023-01-30 13:26:05+00:00,2023-03-20 07:06:58+00:00,True,2023-03-20 07:06:58+00:00
+23192,DNN: Refactor the fast conv structure,zihaomu,2023-01-29 09:59:21+00:00,2023-03-10 08:59:49+00:00,True,2023-03-10 08:59:49+00:00
+23189,(5.x) Merge 4.x,alalek,2023-01-28 13:15:15+00:00,2023-01-30 06:35:28+00:00,True,2023-01-30 06:35:27+00:00
+23188,(4.x) Merge 3.4,alalek,2023-01-28 10:05:03+00:00,2023-01-28 12:57:48+00:00,True,2023-01-28 12:57:48+00:00
+23186,MSVC warnings fixed in 3d module,savuor,2023-01-27 16:23:09+00:00,2023-01-30 07:09:02+00:00,True,2023-01-30 07:09:02+00:00
+23185,Avoid double-checked locking with TSAN in parallel,y-guyon,2023-01-27 13:09:28+00:00,2023-01-27 15:10:52+00:00,True,2023-01-27 15:10:52+00:00
+23181,added flag to print notice in roiSelector.cpp,labeeb-7z,2023-01-26 08:56:38+00:00,2023-01-30 13:26:53+00:00,False,
+23179,Backport to 3.4 of the fisheye calibration uncertainty fix,savuor,2023-01-26 01:38:13+00:00,2023-01-28 09:56:14+00:00,True,2023-01-28 09:56:14+00:00
+23178,Fisheye calibration: uncertainty fixed,savuor,2023-01-26 01:29:55+00:00,2023-01-27 06:40:08+00:00,True,2023-01-27 06:40:08+00:00
+23173,build: suppress warning,tomoaki0705,2023-01-23 13:53:31+00:00,2023-01-23 15:33:30+00:00,True,2023-01-23 15:33:30+00:00
+23172,Adding HEVC/H265 FourCC support to MSMF video writer,lilohuang,2023-01-23 13:44:39+00:00,2023-01-25 04:49:08+00:00,True,2023-01-25 04:49:08+00:00
+23168,"Fix encodeStructuredAppend() resulting in only one QR code problem, and false output data fix.",neg-c,2023-01-22 01:01:53+00:00,2023-01-30 06:15:19+00:00,True,2023-01-30 06:15:18+00:00
+23167,(4.x) Merge 3.4,alalek,2023-01-21 18:22:55+00:00,2023-01-23 05:29:07+00:00,True,2023-01-23 05:29:07+00:00
+23166,A Byte of Python link broken,avr2002,2023-01-21 03:16:33+00:00,2023-01-21 16:41:01+00:00,False,
+23165,removed redundant code in `distransform.cpp`,labeeb-7z,2023-01-20 18:53:03+00:00,2023-01-25 16:54:12+00:00,True,2023-01-25 16:54:12+00:00
+23162,DNN: fixed bug in depthwise conv of stride 2,zihaomu,2023-01-20 15:19:26+00:00,2023-01-28 13:00:51+00:00,True,2023-01-28 13:00:51+00:00
+23161,TFLite models importer,dkurt,2023-01-20 14:57:58+00:00,2023-02-13 14:00:20+00:00,True,2023-02-13 14:00:20+00:00
+23159,issue:23147  Update resources link,kachhadiyaraj15,2023-01-20 13:45:13+00:00,2023-03-21 12:24:38+00:00,False,
+23154,SURF: make test tolerate to rounding error,tomoaki0705,2023-01-19 13:30:03+00:00,2023-01-21 18:15:27+00:00,True,2023-01-21 18:15:26+00:00
+23153,ChArUco pre460 pattern support,stefan523,2023-01-19 11:28:30+00:00,2023-05-04 15:30:40+00:00,True,2023-05-04 15:30:40+00:00
+23150,Stereo calibration perView pose output: port to 5.x,savuor,2023-01-19 03:52:20+00:00,2023-02-02 13:44:28+00:00,True,2023-02-02 13:44:28+00:00
+23149,(5.x) Merge 4.x,alalek,2023-01-18 22:06:21+00:00,2023-01-18 23:22:49+00:00,True,2023-01-18 23:22:49+00:00
+23148,perf: drop runtime time adjustment calibration,alalek,2023-01-18 21:54:30+00:00,2023-01-20 08:28:58+00:00,True,2023-01-20 08:28:57+00:00
+23145,Backport to 3.4: cvIsInf() fix,savuor,2023-01-17 22:10:23+00:00,2023-01-18 07:07:50+00:00,True,2023-01-18 07:07:50+00:00
+23143,Fix compilation with msan,vrabaud,2023-01-17 12:28:49+00:00,2023-01-17 17:25:21+00:00,True,2023-01-17 17:25:21+00:00
+23141,Backport C-API cleanup (imgproc) from 5.x,mshabunin,2023-01-16 20:32:30+00:00,2023-01-18 14:12:49+00:00,True,2023-01-18 14:12:48+00:00
+23139,add python charuco sample,AleksandrPanov,2023-01-15 23:49:59+00:00,2023-03-15 10:22:11+00:00,True,2023-03-15 10:22:11+00:00
+23138,fix charuco matchImagePoints,AleksandrPanov,2023-01-15 23:40:53+00:00,2023-04-27 10:55:47+00:00,True,2023-04-27 10:55:46+00:00
+23131,Fix misaligned-pointer-use in intrin_sse.hpp,y-guyon,2023-01-11 14:47:12+00:00,2023-02-10 22:46:22+00:00,True,2023-02-10 22:46:21+00:00
+23128,Fix broken paper link for fastNlMeansDenoising,Isydmr,2023-01-11 00:27:30+00:00,2023-01-12 16:54:41+00:00,True,2023-01-12 16:54:41+00:00
+23127,Resolved Subdiv2D Insert Numerical Issue #22902,take1014,2023-01-10 19:05:45+00:00,2023-10-05 15:02:56+00:00,False,
+23126,core: add cuda `GpuMat` single dimension testing define,cudawarped,2023-01-10 16:28:24+00:00,2023-01-13 13:09:52+00:00,True,2023-01-13 13:09:52+00:00
+23124,different interpolation by double image,vicsyl,2023-01-10 13:31:18+00:00,2023-02-17 07:35:54+00:00,True,2023-02-17 07:35:54+00:00
+23120,build: eliminate GCC9 warning from sift.simd.hpp,alalek,2023-01-10 01:42:38+00:00,2023-01-10 10:02:46+00:00,True,2023-01-10 10:02:46+00:00
+23117,videoio(test): skip unstable Media.audio test,alalek,2023-01-09 10:07:36+00:00,2023-01-09 11:06:48+00:00,True,2023-01-09 11:06:48+00:00
+23114,fix typo: stetDictionary to setDictionary,smeng9,2023-01-09 06:06:32+00:00,2023-01-09 13:14:48+00:00,True,2023-01-09 13:14:48+00:00
+23113,(5.x) Merge 4.x,alalek,2023-01-08 21:11:48+00:00,2023-01-09 17:41:52+00:00,True,2023-01-09 17:41:51+00:00
+23112,DNN: fix possible segmentation fault error in winograd on x86,zihaomu,2023-01-08 14:42:28+00:00,2023-01-09 19:37:44+00:00,True,2023-01-09 19:37:44+00:00
+23111,Open CV_CPU_NEON_DOTPROD on Apple silicon devices,yeatse,2023-01-08 14:19:15+00:00,2023-01-09 19:39:14+00:00,True,2023-01-09 19:39:14+00:00
+23110,Fix Winograd,cocoa-xu,2023-01-08 04:31:57+00:00,2023-01-09 03:56:33+00:00,False,
+23109,Fixes for various mostly trivial warnings,seanm,2023-01-08 03:34:06+00:00,2023-10-06 10:33:22+00:00,True,2023-10-06 10:33:22+00:00
+23108,"Usage of imread(): magic number 0, unchecked result",crackwitz,2023-01-07 20:34:04+00:00,2023-01-09 09:55:31+00:00,True,2023-01-09 09:55:31+00:00
+23104,Fix encodeStructuredAppend() resulting in only one QR code problem,neg-c,2023-01-07 11:32:29+00:00,2023-01-22 00:16:01+00:00,False,
+23098,finiteMask() and doubles for patchNaNs(),savuor,2023-01-05 08:55:37+00:00,2023-11-09 07:32:47+00:00,True,2023-11-09 07:32:47+00:00
+23096,DNN: fused depthwise and add,zihaomu,2023-01-04 11:53:33+00:00,2023-01-12 00:51:31+00:00,True,2023-01-12 00:51:31+00:00
+23095,fix openmp include and link issue on macos,fengyuentau,2023-01-04 07:24:10+00:00,2023-01-16 09:44:13+00:00,True,2023-01-16 09:44:13+00:00
+23094,fix openmp include and link issue on macos,fengyuentau,2023-01-04 07:24:10+00:00,2023-01-04 07:25:02+00:00,False,
+23087,add GraphCutSeamFinder to stitching_detailed.py,lukasalexanderweber,2023-01-03 21:49:58+00:00,2023-01-11 07:29:21+00:00,True,2023-01-11 07:29:21+00:00
+23078,Update USAC,ivashmak,2023-01-02 17:21:31+00:00,2023-06-16 07:59:14+00:00,True,2023-06-16 07:59:13+00:00
+23076,Fix occuring artifacts in fillPoly,inayd,2023-01-02 15:51:31+00:00,2023-01-28 09:56:25+00:00,True,2023-01-28 09:56:25+00:00
+23073,USAC fix: GraphCut fails to allocate big dense matrices,savuor,2023-01-02 10:01:06+00:00,2023-01-20 11:55:40+00:00,True,2023-01-20 11:55:40+00:00
